@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
+<title>Workshop Lentes de Porcelana — Bruna Veiga</title>
+<meta name="description" content="Uma manhã ao vivo com Bruna Veiga para você construir um plano de ação e começar a oferecer lentes de porcelana de alto padrão no seu consultório. Sábado, 26 de setembro, das 8h às 12h.">
+<script src="./support.js" defer></script>
 </head>
 <body>
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Serif+Display:wdth,wght@62.5,600&family=Fira+Sans:wght@400;500;600;700&family=Karla:ital,wght@0,300..700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Fira+Sans:wght@400;500;600;700&family=Karla:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:#14201F;font-family:Karla,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
@@ -26,7 +28,6 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 .lead-l{color:#F3F1EB!important}
 .turn{font-family:'Fira Sans','Helvetica Neue',sans-serif!important;font-weight:600!important;font-size:clamp(18px,2.15vw,22px)!important;line-height:1.36!important;color:#0E3A38!important;letter-spacing:-.011em!important}
 .turn-l{color:#F3F1EB!important}
-.whisper{font-size:clamp(13px,1.4vw,14px)!important;color:#8A9593!important;font-style:italic}
 .kicker{display:block;font-family:Karla,sans-serif;font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:#A9803F;margin:0 0 16px}
 .kicker-l{color:#D3AE7C}
 </style>
@@ -54,7 +55,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       </div>
     </div>
     <div style="flex:1 1 48%;min-width:min(100%,300px);display:flex;align-items:flex-start;justify-content:flex-end;overflow:hidden;margin-top:clamp(-34px,-3vw,0px)">
-      <img src="assets/bruna-geometrica.webp" alt="Bruna Veiga com o resultado no notebook" style="display:block;width:100%;height:auto;max-height:min(88vh,940px);object-fit:contain;object-position:100% 100%;filter:drop-shadow(0 16px 34px rgba(14,58,56,.16))">
+      <img src="assets/bruna-geometrica.webp" alt="Bruna Veiga com o resultado no notebook" width="1509" height="1835" fetchpriority="high" decoding="async" style="display:block;width:100%;height:auto;max-height:min(88vh,940px);object-fit:contain;object-position:100% 100%;filter:drop-shadow(0 16px 34px rgba(14,58,56,.16))">
     </div>
   </div>
 </section>
@@ -76,7 +77,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:26px 0">
       <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(20px,2.4vw,26px);line-height:1.3;color:#0E3A38">“É isso que eu quero para mim.”</p>
     </div>
-    <img src="assets/quero-isso.webp" alt="Resultado em lentes de porcelana" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 50%;border-radius:5px;margin:0 0 26px">
+    <img src="assets/quero-isso.webp" alt="Resultado em lentes de porcelana" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 50%;border-radius:5px;margin:0 0 26px">
     <div style="display:flex;flex-direction:column;gap:10px">
       <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(16px,1.7vw,18px);color:#A9803F">O problema?</p>
       <p class="turn" style="margin:0">Se você ainda não construiu esses casos, não tem o que mostrar.</p>
@@ -211,7 +212,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 </section>
 
 <div aria-hidden="true" style="position:relative;z-index:1;margin-top:clamp(-56px,-6vw,-24px);background:linear-gradient(180deg,#EDF3F1 0%,#EDF3F1 46%,#0D4C5A 46%,#0D4C5A 100%);line-height:0">
-  <img src="assets/arcada.webp" alt="" style="display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:50% 50%">
+  <img src="assets/arcada.webp" alt="" loading="lazy" decoding="async" width="1315" height="425" style="display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:50% 50%">
 </div>
 
 <section style="background:#0D4C5A;color:#F1F6F7;padding:clamp(40px,6vw,88px) 0 clamp(48px,7vw,96px)">
@@ -236,9 +237,9 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     </div>
   </div>
   <div ref="{{ sliderRef }}" onMouseDown="{{ onDragStart }}" onTouchStart="{{ onDragStart }}" style="position:relative;height:clamp(300px,44vw,520px);margin-top:clamp(28px,4vw,48px);cursor:ew-resize;user-select:none;overflow:hidden;background:#08343D">
-    <img ref="{{ antesRef }}" src="assets/a-antes.webp" alt="antes" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
+    <img ref="{{ antesRef }}" src="assets/a-antes.webp" alt="antes" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
     <div style="position:absolute;inset:0;clip-path:inset(0 {{ clipRight }}% 0 0);overflow:hidden;pointer-events:none">
-      <img ref="{{ depoisRef }}" src="assets/a-depois.webp" alt="depois" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
+      <img ref="{{ depoisRef }}" src="assets/a-depois.webp" alt="depois" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
     </div>
     <div style="position:absolute;top:0;bottom:0;left:{{ splitPct }}%;width:2px;background:#F1F6F7;box-shadow:0 0 12px rgba(0,0,0,.4)"></div>
     <div style="position:absolute;top:50%;left:{{ splitPct }}%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;background:#0D4C5A;color:#F1F6F7;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 16px rgba(0,0,0,.4)">⇄</div>
@@ -306,10 +307,10 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 <section style="background:#0E3A38;color:#F3F1EB;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
   <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:clamp(28px,5vw,60px);align-items:start">
     <div>
-      <img src="assets/bruna-oval.webp" alt="Bruna Veiga" style="display:block;width:100%;height:auto;object-fit:contain">
+      <img src="assets/bruna-oval.webp" alt="Bruna Veiga" loading="lazy" decoding="async" width="1537" height="2305" style="display:block;width:100%;height:auto;object-fit:contain">
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px">
-        <img src="assets/nive.webp" alt="Recepção da Nive Odontologia" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:0% 50%;border-radius:4px">
-        <img src="assets/atendimento.webp" alt="Bruna Veiga em atendimento" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 40%;border-radius:4px">
+        <img src="assets/nive.webp" alt="Recepção da Nive Odontologia" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:0% 50%;border-radius:4px">
+        <img src="assets/atendimento.webp" alt="Bruna Veiga em atendimento" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 40%;border-radius:4px">
       </div>
     </div>
     <div>
@@ -433,9 +434,9 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 <section style="background:#0B2D2B;color:#F3F1EB;padding:clamp(48px,7vw,90px) clamp(20px,5vw,60px)">
   <div style="max-width:960px;margin:0 auto">
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
-      <img src="assets/caso-1.webp" alt="Antes e depois em lentes de porcelana" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
-      <img src="assets/caso-2.webp" alt="Antes e depois em lentes de porcelana" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
-      <img src="assets/caso-3.webp" alt="Antes e depois em lentes de porcelana" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+      <img src="assets/caso-1.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+      <img src="assets/caso-2.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+      <img src="assets/caso-3.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
     </div>
     <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,42px);line-height:1.14;letter-spacing:-.014em;text-align:center;margin:clamp(26px,4vw,44px) 0 18px;text-wrap:pretty">Existem pacientes dispostos a investir em um sorriso melhor.</h2>
     <p style="margin:0 0 10px;text-align:center;font-size:16px;color:rgba(243,241,235,.8)">A questão é:</p>
