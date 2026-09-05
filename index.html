@@ -20,6 +20,8 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @keyframes pulseCta{0%,100%{box-shadow:0 0 0 0 rgba(18,148,111,.45)}50%{box-shadow:0 0 0 12px rgba(18,148,111,0)}}
 @keyframes shine{0%{transform:translateX(-120%)}55%,100%{transform:translateX(220%)}}
+.cta-pulse{animation-play-state:paused!important}
+.cta-pulse.cta-on{animation-play-state:running!important}
 /* ── ritmo tipográfico: 2ª dobra pra baixo ── */
 .mark{background-image:linear-gradient(180deg,transparent 20%,#FADF98 20%,#FADF98 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .mark-g{background-image:linear-gradient(180deg,transparent 20%,#AEDCCB 20%,#AEDCCB 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
@@ -49,7 +51,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       </div>
       <h2 style="margin:0;max-width:44ch;font-family:Karla,sans-serif;font-weight:400;font-size:clamp(14.5px,1.5vw,17px);line-height:1.55;color:#45514F">Ao final das 4 horas, você saberá como conquistar pacientes de lentes de porcelana, planejar casos para o laboratório, executá-los e construir seu portfólio.</h2>
       <div style="width:100%">
-        <a href="#ingresso" style="position:relative;overflow:hidden;display:block;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.1em;padding:19px 22px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
+        <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.1em;padding:19px 22px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
         <div style="height:4px;background:#E2E8E7;border-radius:2px;margin:12px 0 8px"><div style="width:18%;height:4px;background:#0B7A5E;border-radius:2px"></div></div>
         <p style="margin:0;font-size:clamp(10.5px,2.2vw,11.5px);line-height:1.5;text-align:center;color:#45514F"><strong style="color:#0E3A38">18% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 19</p>
       </div>
@@ -117,7 +119,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 
 <section style="background:#0E3A38;color:#F3F1EB;padding:clamp(44px,6vw,80px) clamp(20px,5vw,60px);text-align:center">
   <p style="margin:0 auto 26px;max-width:720px;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(21px,2.8vw,32px);line-height:1.24;letter-spacing:-.012em">O <strong style="font-weight:600">Workshop Lentes de Porcelana</strong> foi criado para ajudar você a romper esse ciclo.</p>
-  <a href="#ingresso" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
+  <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
   <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:rgba(243,241,235,.22);border-radius:3px"><div style="width:18%;height:5px;background:#3FC59B;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:rgba(243,241,235,.8)"><strong>18% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 19</p></div>
 </section>
 
@@ -382,7 +384,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">O que precisa dominar.</div>
       <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">E como transformar os primeiros resultados em argumento para conquistar os próximos.</div>
     </div>
-    <a href="#ingresso" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>SIM, QUERO PARTICIPAR</a>
+    <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>SIM, QUERO PARTICIPAR</a>
     <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:#E2E8E7;border-radius:3px"><div style="width:18%;height:5px;background:#0B7A5E;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:#45514F"><strong>18% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 19</p></div>
   </div>
 </section>
@@ -402,7 +404,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       <p style="margin:0 0 2px;text-align:center;font-size:14px;color:#7C8785">De: <s>R$ 97</s></p>
       <p style="margin:0 0 2px;text-align:center;font-size:14px;color:#45514F">Por apenas:</p>
       <p style="margin:0 0 24px;text-align:center;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:600;font-size:clamp(30px,5vw,42px);letter-spacing:-.02em;color:#0B7A5E;white-space:nowrap">R$ 19</p>
-      <a href="https://pay.kiwify.com.br/PYf8ZIv" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
+      <a href="https://pay.kiwify.com.br/PYf8ZIv" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
       <div style="height:5px;background:#E2E8E7;border-radius:3px;margin:18px 0 10px"><div style="width:18%;height:5px;background:#0B7A5E;border-radius:3px"></div></div>
       <p style="margin:0 0 12px;text-align:center;font-size:13px;font-weight:700;color:#0E3A38">18% dos ingressos vendidos — de <s style="font-weight:400;color:#7C8785">R$ 97</s> por R$ 19</p>
       <p style="margin:0;text-align:center;font-size:12px;line-height:1.55;color:#7C8785">Assim que os ingressos deste lote forem vendidos, o Lote 0 será encerrado e o próximo lote terá um novo valor.</p>
@@ -450,7 +452,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       <span style="color:#D3AE7C">26 de setembro | 8h às 12h | Ao vivo e online</span>
     </div>
     <p style="margin:0 0 18px;text-align:center;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(18px,2.2vw,24px);letter-spacing:-.012em">Garanta agora seu ingresso no Lote 0.</p>
-    <a href="#ingresso" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
+    <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
     <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:rgba(243,241,235,.22);border-radius:3px"><div style="width:18%;height:5px;background:#3FC59B;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:rgba(243,241,235,.8)"><strong>18% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 19</p></div>
   </div>
 </section>
@@ -541,18 +543,20 @@ class Component extends DCLogic {
       this.setState({ split: Math.max(2, Math.min(98, (x / r.width) * 100)) });
     };
     this._up = () => this.state.drag && this.setState({ drag: false });
-    this._onScroll = () => { this.checkHero(); this.checkLoop(); };
+    this._onScroll = () => { this.checkHero(); this.checkLoop(); this.checkCtas(); };
     window.addEventListener('scroll', this._onScroll, { passive: true, capture: true });
     document.addEventListener('scroll', this._onScroll, { passive: true, capture: true });
     window.addEventListener('resize', this._onScroll);
-    this._poll = setInterval(this._onScroll, 300);
+    // rede de segurança p/ browsers que estrangulam eventos de scroll no fling (mobile);
+    // 1s em vez dos 300ms originais — mantém o estado correto sem repaint frequente
+    this._poll = setInterval(this._onScroll, 1000);
     setTimeout(this._onScroll, 0);
     window.addEventListener('mousemove', this._move);
     window.addEventListener('touchmove', this._move);
     window.addEventListener('mouseup', this._up);
     window.addEventListener('touchend', this._up);
   }
-  componentDidUpdate() { this.syncCase(); }
+  componentDidUpdate() { this.syncCase(); this.checkCtas(); }
   componentWillUnmount() {
     window.removeEventListener('mousemove', this._move);
     window.removeEventListener('touchmove', this._move);
@@ -562,6 +566,16 @@ class Component extends DCLogic {
     document.removeEventListener('scroll', this._onScroll, { capture: true });
     window.removeEventListener('resize', this._onScroll);
     clearInterval(this._poll);
+  }
+
+  // só o CTA que está na tela pulsa — os demais ficam pausados (sem repaint contínuo)
+  checkCtas() {
+    if (!this._ctas || !this._ctas.length) this._ctas = document.querySelectorAll('.cta-pulse');
+    const h = window.innerHeight, pad = h * 0.1;
+    this._ctas.forEach((el) => {
+      const r = el.getBoundingClientRect();
+      el.classList.toggle('cta-on', r.height > 0 && r.top < h - pad && r.bottom > pad);
+    });
   }
 
   checkLoop() {
