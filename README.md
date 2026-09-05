@@ -14,4 +14,5 @@ Abrir por `file://` pode falhar por CORS; use um servidor local, ex.: `python3 -
 - Confirmar o percentual do contador ("18% dos ingressos vendidos"), que aparece em 5 lugares.
 
 ## Checkout
-Todos os CTAs apontam para `https://pay.kiwify.com.br/PYf8ZIv` (Kiwify, mesma aba).
+Os CTAs espalhados pela página rolam até a seção `#ingresso` (card do Lote 0).
+Só o botão dentro desse card leva ao checkout: `https://pay.kiwify.com.br/PYf8ZIv` (Kiwify, mesma aba).
