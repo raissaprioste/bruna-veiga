@@ -18,6 +18,17 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @keyframes pulseCta{0%,100%{box-shadow:0 0 0 0 rgba(18,148,111,.45)}50%{box-shadow:0 0 0 12px rgba(18,148,111,0)}}
 @keyframes shine{0%{transform:translateX(-120%)}55%,100%{transform:translateX(220%)}}
+/* ── ritmo tipográfico: 2ª dobra pra baixo ── */
+.mark{background-image:linear-gradient(180deg,transparent 20%,#FADF98 20%,#FADF98 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mark-g{background-image:linear-gradient(180deg,transparent 20%,#AEDCCB 20%,#AEDCCB 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.pop{font-family:Marcellus,serif;color:#A9803F;font-size:1.14em;letter-spacing:.005em;white-space:nowrap}
+.lead{font-size:clamp(18px,2.1vw,22px)!important;line-height:1.5!important;color:#0E3A38!important;font-weight:400!important}
+.lead-l{color:#F3F1EB!important}
+.turn{font-family:'Fira Sans','Helvetica Neue',sans-serif!important;font-weight:600!important;font-size:clamp(18px,2.15vw,22px)!important;line-height:1.36!important;color:#0E3A38!important;letter-spacing:-.011em!important}
+.turn-l{color:#F3F1EB!important}
+.whisper{font-size:clamp(13px,1.4vw,14px)!important;color:#8A9593!important;font-style:italic}
+.kicker{display:block;font-family:Karla,sans-serif;font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:#A9803F;margin:0 0 16px}
+.kicker-l{color:#D3AE7C}
 </style>
 </helmet>
 <div style="max-width:100%;padding-bottom:78px">
@@ -51,29 +62,25 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 
 <section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px) clamp(20px,3vw,40px)">
   <div style="max-width:760px;margin:0 auto">
+    <span class="kicker">O paradoxo dos primeiros casos</span>
     <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.16;letter-spacing:-.012em;margin:0 0 22px;color:#0E3A38;text-wrap:pretty">Existe um paradoxo que mantém muitos dentistas longe dos melhores casos da odontologia estética.</h2>
     <div style="display:flex;flex-direction:column;gap:14px">
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Para conseguir mais pacientes de lentes de porcelana, você precisa mostrar bons casos.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Mas para ter bons casos para mostrar…</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Você precisa primeiro conseguir pacientes que confiem em fazer porcelana com você.</p>
+      <p class="lead" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Para conseguir mais pacientes de lentes de porcelana, você precisa <span class="mark">mostrar bons casos</span>.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Mas, para ter bons casos para mostrar, você precisa primeiro conseguir pacientes que <span class="mark">confiem em fazer porcelana com você</span>.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E é aí que muita gente fica presa.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Você vê outros profissionais executando casos de R$ 10 mil, R$ 20 mil ou mais.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Sabe que existe demanda.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Sabe o quanto a odontologia estética pode valorizar seu trabalho.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Talvez até tenha pacientes no consultório que poderiam se beneficiar do tratamento.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#14201F"><strong>Mas existe uma distância enorme entre conhecer as lentes de porcelana e realmente começar a trabalhar com elas.</strong></p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Porque estética não admite improviso.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">O paciente não procura apenas dentes funcionais.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Ele procura um resultado <strong>bonito. Natural. Harmônico.</strong></p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Você vê outros profissionais executando casos de <span class="pop">R$ 10 mil</span>, <span class="pop">R$ 20 mil</span> ou mais. Sabe que existe demanda. Sabe o quanto a odontologia estética pode valorizar seu trabalho.</p>
+      <p class="turn" style="margin:0">Mas existe uma distância enorme entre conhecer as lentes de porcelana e realmente começar a trabalhar com elas.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Porque estética não admite improviso. O paciente não procura apenas dentes funcionais.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Ele procura um resultado <span class="pop">bonito</span>. <span class="pop">Natural</span>. <span class="pop">Harmônico</span>.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E, antes de colocar milhares de reais naquele tratamento, é natural que queira olhar para o seu trabalho e pensar:</p>
     </div>
     <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:26px 0">
       <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(20px,2.4vw,26px);line-height:1.3;color:#0E3A38">“É isso que eu quero para mim.”</p>
     </div>
     <img src="assets/quero-isso.webp" alt="Resultado em lentes de porcelana" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 50%;border-radius:5px;margin:0 0 26px">
-    <div style="display:flex;flex-direction:column;gap:14px">
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">O problema?</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Se você ainda não construiu esses casos, não tem o que mostrar.</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(16px,1.7vw,18px);color:#A9803F">O problema?</p>
+      <p class="turn" style="margin:0">Se você ainda não construiu esses casos, não tem o que mostrar.</p>
     </div>
   </div>
 </section>
@@ -119,9 +126,9 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,44px);line-height:1.12;letter-spacing:-.014em;margin:0 0 10px;color:#0E3A38;max-width:900px;text-wrap:pretty">Você não precisa ter dezenas de casos de porcelana para começar.</h2>
     <p style="margin:0 0 30px;font-family:Marcellus,serif;font-size:clamp(19px,2.2vw,26px);color:#A9803F">Precisa saber construir os primeiros.</p>
     <div style="display:flex;flex-direction:column;gap:14px;max-width:760px">
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">No <strong>sábado, 26 de setembro</strong>, das <strong>8h às 12h</strong>, <strong>eu vou</strong> construir com você um plano de ação para começar a ocupar seu espaço na odontologia estética com lentes de porcelana.</p>
+      <p class="lead" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">No <span class="mark">sábado, 26 de setembro</span>, das <strong>8h às 12h</strong>, eu vou construir com você um plano de ação para começar a ocupar seu espaço na odontologia estética com lentes de porcelana.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E não será uma manhã para simplesmente assistir a mais uma aula.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#14201F"><strong>Você vai sair do Workshop com clareza sobre o que fazer a partir dali.</strong></p>
+      <p class="turn" style="margin:0">Você vai sair do Workshop com clareza sobre o que fazer a partir dali.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Vamos construir juntos o caminho para:</p>
     </div>
     <div style="margin-top:clamp(30px,5vw,54px);background:#EDF3F1;border-radius:20px;padding:clamp(18px,3.4vw,38px) clamp(18px,3.4vw,38px) clamp(24px,4vw,44px);display:block">
@@ -186,9 +193,8 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     </div>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">É justamente aqui que entra uma estratégia importante para quem está começando.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Imagine estruturar um primeiro caso de 10 lentes por <strong>R$ 8.000</strong>.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">É um valor abaixo do que muitas clínicas populares já cobram.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">O objetivo desse primeiro atendimento não é maximizar sua margem.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Imagine estruturar um primeiro caso de 10 lentes por <span class="pop">R$ 8.000</span> — um valor abaixo do que muitas clínicas populares já cobram.</p>
+      <p class="turn" style="margin:0">O objetivo desse primeiro atendimento não é maximizar sua margem.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">É construir ativos muito mais importantes para este momento:</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0">
@@ -201,7 +207,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Mesmo em uma condição estrategicamente mais acessível, existe espaço para custear laboratório, investir no seu aperfeiçoamento e transformar aqueles dias de atendimento no começo de uma nova frente dentro da clínica.</p>
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Porque, à medida que sua técnica, segurança e portfólio crescem, muda também o tipo de caso que você consegue assumir — e o valor percebido pelo paciente.</p>
     </div>
-    <p style="margin:26px 0 0;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(19px,2.4vw,26px);line-height:1.26;letter-spacing:-.012em;color:#0E3A38">Um único caso bem construído pode continuar trabalhando por você muito depois de o paciente sair do consultório.</p>
+    <p style="margin:26px 0 0;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(19px,2.4vw,26px);line-height:1.26;letter-spacing:-.012em;color:#0E3A38">Um único caso bem construído pode <span class="mark">continuar trabalhando por você</span> muito depois de o paciente sair do consultório.</p>
   </div>
 </section>
 
@@ -215,9 +221,8 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(24px,4vw,52px)">
       <div style="display:flex;flex-direction:column;gap:14px">
         <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Essa será uma das partes mais importantes da manhã.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Porque porcelana não se domina apenas decorando protocolos.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">É preciso desenvolver olhar.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Ao analisar diferentes situações clínicas, <strong>eu vou</strong> mostrar como enxergo cada caso e os detalhes que influenciam diretamente o resultado final:</p>
+        <p class="turn turn-l" style="margin:0">Porque porcelana não se domina apenas decorando protocolos. É preciso desenvolver <span class="pop">olhar</span>.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Ao analisar diferentes situações clínicas, eu vou mostrar como enxergo cada caso e os detalhes que influenciam diretamente o resultado final:</p>
       </div>
       <div style="display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5">
         <span>— Este é um bom caso para lente?</span>
@@ -259,10 +264,8 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
   <div style="max-width:760px;margin:0 auto">
     <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,42px);line-height:1.14;letter-spacing:-.014em;margin:0 0 24px">O paciente compra estética com os olhos.</h2>
     <div style="display:flex;flex-direction:column;gap:14px">
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Diploma importa.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Formação importa.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Experiência importa.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Mas, diante de um tratamento estético de alto investimento, existe uma pergunta que pesa muito:</p>
+      <p style="margin:0;font-size:clamp(16px,1.8vw,19px);line-height:1.7;color:rgba(243,241,235,.9)">Diploma importa. Formação importa. Experiência importa.</p>
+      <p class="turn turn-l" style="margin:0">Mas, diante de um tratamento estético de alto investimento, existe uma pergunta que pesa muito:</p>
     </div>
     <p style="margin:24px 0;font-family:Marcellus,serif;font-size:clamp(21px,2.8vw,32px);line-height:1.28;color:#D3AE7C">“Eu gosto do que esse profissional consegue entregar?”</p>
     <div style="display:flex;flex-direction:column;gap:14px">
@@ -276,6 +279,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
 
 <section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
   <div style="max-width:1100px;margin:0 auto">
+    <span class="kicker">Para quem é</span>
     <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.14;letter-spacing:-.014em;margin:0 0 22px;color:#0E3A38">Para quem é o Workshop Lentes de Porcelana?</h2>
     <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Este Workshop é para o dentista que:</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;align-items:start;margin-top:24px">
@@ -314,12 +318,10 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
       <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(28px,3.6vw,44px);letter-spacing:-.014em;margin:0 0 10px">Bruna Veiga</h2>
       <p style="margin:0 0 22px;font-size:17px;line-height:1.5;font-weight:700;color:#D3AE7C">Sócia-fundadora da Nive Odontologia e referência em estética e porcelana.</p>
       <div style="display:flex;flex-direction:column;gap:14px">
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Bruna Veiga está à frente da <strong>Nive Odontologia</strong>, clínica e laboratório que se tornaram referência em reabilitação estética e lentes de porcelana.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Ao lado de Felipe Veiga, construiu uma operação que recebe pacientes de diferentes regiões do Brasil e também do exterior, atraídos pela busca por resultados naturais, sofisticados e altamente personalizados.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Dentro da Nive, Bruna desenvolveu uma visão extremamente apurada sobre estética, acabamento e resultado final — justamente os detalhes que fazem uma lente deixar de parecer uma peça artificial e passar a se integrar de forma natural ao sorriso.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Hoje, a operação da Nive produz <strong>centenas de lentes de porcelana todos os meses</strong>, em uma rotina que coloca Bruna em contato constante com planejamento, execução, acabamento e avaliação estética de casos reais.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Mas essa história não começou pronta.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Antes de alcançar esse nível de refinamento, Bruna viveu problemas que muitos profissionais enfrentam ao entrar na porcelana:</p>
+        <p class="lead lead-l" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Bruna Veiga está à frente da <strong>Nive Odontologia</strong> — clínica e laboratório que, ao lado de Felipe Veiga, se tornaram referência em reabilitação estética e lentes de porcelana, recebendo pacientes de todo o Brasil e do exterior.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Dentro da Nive, ela desenvolveu uma visão apurada sobre estética, acabamento e resultado final — os detalhes que fazem uma lente deixar de parecer <span class="pop">artificial</span> e passar a se integrar de forma natural ao sorriso.</p>
+        <p class="turn turn-l" style="margin:0">Hoje, a operação produz centenas de lentes de porcelana todos os meses.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Mas essa história não começou pronta. Antes desse nível de refinamento, Bruna viveu problemas que muitos profissionais enfrentam ao entrar na porcelana:</p>
       </div>
       <div style="display:flex;flex-direction:column;gap:8px;margin:18px 0;padding-left:18px;border-left:2px solid rgba(211,174,124,.6);font-size:15px;line-height:1.5;color:rgba(243,241,235,.8)">
         <span>peças que não correspondiam ao planejamento;</span>
@@ -329,9 +331,8 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
         <span>frustração entre o que havia sido planejado e o que efetivamente chegava para instalação.</span>
       </div>
       <div style="display:flex;flex-direction:column;gap:14px">
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Foi justamente essa insatisfação que fez com que ela mergulhasse profundamente no universo da cerâmica e desenvolvesse um olhar próprio sobre estética, naturalidade e previsibilidade.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Hoje, esse olhar está presente nos casos da Nive e será parte central do <strong>Workshop Lentes de Porcelana</strong>.</p>
-        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Durante a manhã, Bruna vai mostrar como analisa casos, o que observa antes de começar, quais decisões influenciam diretamente no resultado e quais erros fazem uma lente perder naturalidade.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Foi essa insatisfação que a fez mergulhar no universo da cerâmica e desenvolver um olhar próprio sobre estética, naturalidade e previsibilidade — o mesmo olhar que será <span class="pop">parte central</span> do Workshop.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Durante a manhã, ela vai mostrar como analisa casos, o que observa antes de começar, quais decisões influenciam o resultado e quais erros fazem uma lente perder naturalidade.</p>
       </div>
     </div>
   </div>
@@ -369,9 +370,9 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:20px 0 26px">
       <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(20px,2.5vw,28px);line-height:1.3;color:#0E3A38">“Agora eu sei qual é o meu próximo passo para começar a construir meus casos de porcelana.”</p>
     </div>
-    <div style="display:flex;flex-direction:column;gap:14px">
+    <div style="display:flex;flex-direction:column;gap:12px">
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Em vez de terminar a manhã com dezenas de páginas de anotação que nunca sairão do papel…</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Você terá uma direção.</p>
+      <p class="turn" style="margin:0">Você terá uma direção.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:22px 0 30px">
       <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">Quem procurar.</div>
@@ -442,7 +443,7 @@ a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
     <p style="margin:0 0 26px;text-align:center;font-family:Marcellus,serif;font-size:clamp(20px,2.6vw,30px);line-height:1.28;color:#D3AE7C">quando eles chegarem até você, o seu trabalho estará pronto para ser escolhido?</p>
     <div style="max-width:640px;margin:0 auto 26px;display:flex;flex-direction:column;gap:12px;text-align:center">
       <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Todo profissional que hoje possui dezenas ou centenas de casos para mostrar precisou começar pelos primeiros.</p>
-      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">No <strong>sábado, 26 de setembro</strong>, eu quero ajudar você a construir esse começo.</p>
+      <p class="turn turn-l" style="margin:0">No sábado, 26 de setembro, eu quero ajudar você a construir esse começo.</p>
     </div>
     <div style="text-align:center;margin-bottom:26px;display:flex;flex-direction:column;gap:4px;font-size:14.5px;font-weight:700">
       <span>Workshop Lentes de Porcelana</span>
