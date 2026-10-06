@@ -26,6 +26,167 @@
 @media(max-height:680px) and (max-width:900px){.hero-content{gap:7px}.hero h1{font-size:clamp(24px,6.8vw,31px)}.hero .chips{display:none}.hero .btn{min-height:52px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
+
+/* Mobile hero matched to approved reference */
+.hero h1 .serif{
+  font-family:'Fira Sans',sans-serif;
+  font-weight:700;
+  color:#f5f1ea;
+  background:linear-gradient(var(--gold),var(--gold)) no-repeat 0 96%/100% 3px;
+  padding-bottom:1px;
+}
+@media(max-width:900px){
+  .hero{
+    position:relative;
+    display:block;
+    height:100svh;
+    min-height:640px;
+    max-height:980px;
+    overflow:hidden;
+    background:var(--dark);
+    text-align:center;
+  }
+  .hero-bg{
+    position:absolute;
+    z-index:0;
+    top:0;left:0;right:0;
+    bottom:auto;
+    height:54%;
+    background-size:cover;
+    background-position:center 20%;
+  }
+  .hero:after{
+    content:"";
+    position:absolute;
+    z-index:1;
+    inset:0;
+    background:linear-gradient(
+      180deg,
+      rgba(12,31,25,0) 0%,
+      rgba(12,31,25,0) 34%,
+      rgba(12,31,25,.16) 42%,
+      rgba(12,31,25,.72) 49%,
+      #0c1f19 56%,
+      #0c1f19 100%
+    );
+  }
+  .hero-content{
+    position:absolute;
+    z-index:2;
+    inset:0;
+    width:min(100% - 36px,460px);
+    min-height:0;
+    margin:0 auto;
+    padding:41.5svh 0 max(20px,env(safe-area-inset-bottom));
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    gap:13px;
+  }
+  .hero-content>div:first-child{
+    order:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+  }
+  .hero .eyebrow{
+    font-size:11px;
+    line-height:1.2;
+    letter-spacing:.42em;
+    padding-left:.42em;
+    color:#a9b6af!important;
+  }
+  .hero .brand{
+    font-size:clamp(24px,6.7vw,30px);
+    line-height:1.08;
+    color:var(--gold);
+    max-width:360px;
+  }
+  .hero h1{
+    order:2;
+    width:100%;
+    max-width:410px;
+    margin:8px 0 2px;
+    font-size:clamp(29px,8.2vw,38px);
+    line-height:1.08;
+    letter-spacing:-.025em;
+    text-wrap:balance;
+  }
+  .hero .btn{
+    order:3;
+    width:100%;
+    max-width:390px;
+    min-height:64px;
+    margin-top:3px;
+    padding:13px 18px;
+    border-radius:8px;
+    font-size:14px;
+    line-height:1.35;
+    letter-spacing:.16em;
+    box-shadow:0 0 0 7px rgba(31,138,102,.20);
+  }
+  .hero .chips{
+    order:4;
+    width:100%;
+    justify-content:center;
+    gap:10px;
+    margin-top:6px;
+    flex-wrap:nowrap;
+  }
+  .hero .chip{
+    padding:8px 16px;
+    border-radius:999px;
+    background:rgba(243,230,196,.14);
+    color:#ead9aa;
+    font-size:12px;
+    line-height:1.2;
+    font-weight:700;
+    white-space:nowrap;
+  }
+  .hero-content>p{display:none!important}
+}
+@media(max-width:560px){
+  .hero{min-height:600px}
+  .hero-content{
+    width:calc(100% - 32px);
+    padding-top:41svh;
+    gap:11px;
+  }
+  .hero .brand{font-size:clamp(23px,6.5vw,28px)}
+  .hero h1{
+    max-width:390px;
+    margin-top:6px;
+    font-size:clamp(28px,8.15vw,36px);
+    line-height:1.075;
+  }
+  .hero .btn{
+    max-width:380px;
+    min-height:60px;
+    padding:12px 14px;
+    font-size:13px;
+    letter-spacing:.14em;
+  }
+  .hero .chips{gap:8px;margin-top:5px}
+  .hero .chip{padding:8px 13px;font-size:11.5px}
+}
+@media(max-width:380px){
+  .hero-content{width:calc(100% - 26px);padding-top:39.5svh;gap:9px}
+  .hero .brand{font-size:22px}
+  .hero h1{font-size:28px}
+  .hero .btn{min-height:56px;font-size:12px;letter-spacing:.11em}
+  .hero .chip{padding:7px 10px;font-size:10.5px}
+}
+@media(max-height:720px) and (max-width:900px){
+  .hero-content{padding-top:37svh;gap:8px}
+  .hero .brand{font-size:22px}
+  .hero h1{font-size:clamp(26px,7.4vw,31px);line-height:1.04;margin-top:3px}
+  .hero .btn{min-height:54px;padding:10px 12px}
+  .hero .chips{margin-top:2px}
+  .hero .chip{padding:6px 10px;font-size:10.5px}
+}
+
 </style>
 </head>
 <body>
