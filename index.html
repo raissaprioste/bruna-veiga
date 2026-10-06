@@ -1,1515 +1,713 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="pt-BR">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
-<title>Formação Lentes Impecáveis em Porcelana</title>
-<meta name="description" content="Formação Lentes Impecáveis em Porcelana — método clínico completo, do briefing à cimentação.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Karla:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TVXNBJBJ');</script>
+<!-- End Google Tag Manager -->
+<title>Workshop Lentes de Porcelana — Bruna Veiga</title>
+<meta name="description" content="Uma manhã ao vivo com Bruna Veiga para você construir um plano de ação e começar a oferecer lentes de porcelana de alto padrão no seu consultório. Sábado, 3 de outubro, das 8h às 12h.">
+
+<!-- ══ Meta Pixel ══ -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','881400687280504');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=881400687280504&ev=PageView&noscript=1" alt=""/></noscript>
+
+<script src="./support.js" defer></script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVXNBJBJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <x-dc>
-<helmet><style></style><script>
-// @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
-// Copied omelette starter. Re-running copy_starter_component with this kind overwrites this file with the latest version (page content is unaffected).
-/* BEGIN USAGE */
-/**
- * <image-slot> — user-fillable image placeholder.
- *
- * Drop this into a deck, mockup, or page wherever a design needs an image.
- * You control the slot's shape; it sizes to its container by default. When the search_stock_photos tool
- * is available, prefill the slot by default — write the photo's URL into
- * src (with credit/credit-href); the user can still fill or replace it
- * by dragging an image file onto it (or clicking to browse). The dropped
- * image persists across reloads via a .image-slots.state.json sidecar —
- * same read-via-fetch / write-via-window.omelette pattern as
- * design_canvas.jsx, so the filled slot shows on share links, downloaded
- * zips, and PPTX export. Outside the omelette runtime the slot is read-only.
- *
- * The sidecar is a SIBLING of the HTML file that uses this component: the
- * read is a document-relative fetch, and the host resolves the bridge's
- * sidecar writes into the previewed file's directory to match (same
- * contract as design_canvas.jsx). Pages in the same directory share one
- * sidecar; keep slot ids distinct across them.
- *
- * Attributes:
- *   id           Persistence key. REQUIRED for the drop to survive reload —
- *                every slot on the page needs a distinct id.
- *   shape        'rect' | 'rounded' | 'circle' | 'pill'   (default 'rounded')
- *                'circle' applies 50% border-radius; on a non-square slot
- *                that's an ellipse — set equal width and height for a true
- *                circle.
- *   radius       Corner radius in px for 'rounded'.       (default 12)
- *   mask         Any CSS clip-path value. Overrides `shape` — use this for
- *                hexagons, blobs, arbitrary polygons.
- *   fit          Initial framing baseline: cover | contain.   (default 'cover')
- *                cover starts the image filling the frame (overflow cropped);
- *                contain starts it fully visible (letterboxed). Either way the
- *                user can always pan/scale from there — double-click, or the
- *                Edit control, enters reframe mode (drag to move, scroll or
- *                corner-handles to scale; Escape / click-out commits). The
- *                crop persists alongside the image in the sidecar.
- *   placeholder  Empty-state caption.                      (default 'Drop an image')
- *   src          Optional initial/fallback image URL. Prefill it with a real
- *                photo via search_stock_photos when that tool is available
- *                (set credit/credit-href from the result). A user drop
- *                overrides it; clearing the drop reveals src again.
- *   credit       Attribution text shown as a small overlay at the
- *                bottom-left of the filled slot. REQUIRED whenever src
- *                points at any Unsplash host (images.unsplash.com,
- *                plus.unsplash.com, …): an Unsplash src with no credit
- *                renders an error tile INSTEAD of the photo (Unsplash
- *                terms forbid showing their photos unattributed). Use the
- *                exact form 'Photo by {photographer name} on Unsplash' —
- *                the overlay then links the name to credit-href and
- *                'Unsplash' to the Unsplash homepage, and links back to
- *                unsplash.com automatically get the required utm referral
- *                params appended at render time. The credit belongs to
- *                the src image, so it only shows while src is what's
- *                displayed — a user-dropped image hides it.
- *   credit-href  Link for the photographer's name in the credit overlay
- *                (their Unsplash profile URL from the stock-photo search
- *                results). http(s) URLs only — anything else renders the
- *                name as plain text.
- *
- * Sizing: the slot fills its container by default (width/height 100%).
- * Put it in a sized wrapper — absolutely positioned, a grid cell, a fixed
- * frame — and it takes exactly that box. When the parent's height is
- * indefinite (ordinary flow), it falls back to full width at a 3:2 aspect
- * ratio instead of collapsing. In a shrink-to-fit parent (a float,
- * width:max-content, an unsized absolute wrapper), percentages have
- * nothing to resolve against — size the slot or its wrapper explicitly
- * there. For a fixed-size slot, set
- * width/height on the element itself (inline style), which overrides the
- * default. When
- * layering content above a slot (full-bleed layouts), make the overlay
- * click-through — pointer-events: none on scrims/text plates, re-enabled
- * on interactive children — so the slot's hover controls stay reachable.
- * Keep the slot's bottom-left corner visually clear as well: the credit
- * overlay renders there, and a dark fade or text plate covering it hides
- * the attribution Unsplash's terms require — end the fade above that
- * corner, or keep it nearly transparent where the credit sits.
- *
- * Usage:
- *   <div style="position:relative;width:100%;height:100%">      <!-- full-bleed: -->
- *     <image-slot id="bg" shape="rect"></image-slot>            <!-- fills the wrapper -->
- *   </div>
- *   <image-slot id="hero"   style="width:800px;height:450px" shape="rounded" radius="20"
- *               placeholder="Drop a hero image"></image-slot>
- *   <image-slot id="avatar" style="width:120px;height:120px" shape="circle"></image-slot>
- *   <image-slot id="kite"   style="width:300px;height:300px"
- *               mask="polygon(50% 0, 100% 50%, 50% 100%, 0 50%)"></image-slot>
- */
-/* END USAGE */
+<helmet>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+/* Google Fonts inline (latin + latin-ext) — sem o CSS render-blocking; woff2 com display:swap */
+@font-face{font-family:'Fira Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Fira Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Fira Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeSBf6TF0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Fira Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTNFOVgaY.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOV.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Karla';font-style:normal;font-weight:400 700;font-display:swap;src:url(https://fonts.gstatic.com/s/karla/v33/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUjm6bnEr.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Karla';font-style:normal;font-weight:400 700;font-display:swap;src:url(https://fonts.gstatic.com/s/karla/v33/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Marcellus';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/marcellus/v14/wEO_EBrOk8hQLDvIAF81WPoK7Es.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Marcellus';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/marcellus/v14/wEO_EBrOk8hQLDvIAF81VvoK.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:#fff;color:#14201F;font-family:Karla,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#0E3A38;text-decoration:none}a:hover{color:#C79A5B}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes pulseCta{0%,100%{box-shadow:0 0 0 0 rgba(18,148,111,.45)}50%{box-shadow:0 0 0 12px rgba(18,148,111,0)}}
+@keyframes shine{0%{transform:translateX(-120%)}55%,100%{transform:translateX(220%)}}
+.cta-pulse{animation-play-state:paused!important}
+.cta-pulse.cta-on{animation-play-state:running!important}
+/* ── ritmo tipográfico: 2ª dobra pra baixo ── */
+.mark{background-image:linear-gradient(180deg,transparent 20%,#FADF98 20%,#FADF98 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mark-g{background-image:linear-gradient(180deg,transparent 20%,#AEDCCB 20%,#AEDCCB 90%,transparent 90%);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.pop{font-family:Marcellus,serif;color:#A9803F;font-size:1.14em;letter-spacing:.005em;white-space:nowrap}
+.lead{font-size:clamp(18px,2.1vw,22px)!important;line-height:1.5!important;color:#0E3A38!important;font-weight:400!important}
+.lead-l{color:#F3F1EB!important}
+.turn{font-family:'Fira Sans','Helvetica Neue',sans-serif!important;font-weight:600!important;font-size:clamp(18px,2.15vw,22px)!important;line-height:1.36!important;color:#0E3A38!important;letter-spacing:-.011em!important}
+.turn-l{color:#F3F1EB!important}
+.kicker{display:block;font-family:Karla,sans-serif;font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:#A9803F;margin:0 0 16px}
+.kicker-l{color:#D3AE7C}
+</style>
+</helmet>
+<div style="max-width:100%;padding-bottom:78px">
 
-(() => {
-  const STATE_FILE = '.image-slots.state.json';
-
-  // Unsplash terms require visible attribution wherever their photos
-  // display, and every link back to unsplash.com must carry utm referral
-  // params. Two render-time rules enforce that here:
-  //  - an Unsplash-src slot with NO credit attribute renders an error
-  //    tile INSTEAD of the photo (an uncredited Unsplash photo on screen
-  //    is itself the terms violation, so it never renders bare);
-  //  - rendered credit links pointing at unsplash.com get the referral
-  //    params appended when absent (credit-href values live in page
-  //    content that can't be edited after the fact).
-  // Keep the utm_source value in sync with UTM_SOURCE in
-  // platform/web-agent/unsplash.ts — this file is a project-local
-  // artifact and cannot import it (equality is pinned by tests).
-  const UNSPLASH_HOMEPAGE_HREF =
-    'https://unsplash.com/?utm_source=claude_design&utm_medium=referral';
-  // Host rule mirrors the hotlink validator that admits Unsplash srcs into
-  // pages in the first place (cdn$ in unsplash.ts: apex or any subdomain)
-  // — Unsplash+ results serve from plus.unsplash.com, not just images.*,
-  // and an admitted-but-uncredited photo must error whatever unsplash
-  // host it rides on.
-  // Trailing-dot FQDNs (images.unsplash.com.) are the same host to the
-  // browser but would miss the regex — strip one dot so the check fails
-  // CLOSED (unrecognized-but-real Unsplash srcs must error, not render).
-  const isUnsplashHost = (u) => {
-    try {
-      return /(^|\.)unsplash\.com$/.test(
-        new URL(u, document.baseURI).hostname.replace(/\.$/, '')
-      );
-    } catch {
-      return false;
-    }
-  };
-  // Render-time referral normalization for links back to Unsplash:
-  // appends utm_source/utm_medium when absent, preserves every existing
-  // query param, never overwrites an existing utm_source, and passes
-  // non-Unsplash URLs through untouched. Input is an ABSOLUTE validated
-  // http(s) URL (the credit render funnel resolves + validates first).
-  const withReferral = (href) => {
-    try {
-      const u = new URL(href);
-      if (!/(^|\.)unsplash\.com$/.test(u.hostname.replace(/\.$/, ''))) {
-        return href;
-      }
-      if (!u.searchParams.has('utm_source')) {
-        u.searchParams.set('utm_source', 'claude_design');
-      }
-      if (!u.searchParams.has('utm_medium')) {
-        u.searchParams.set('utm_medium', 'referral');
-      }
-      return u.toString();
-    } catch (e) {
-      return href;
-    }
-  };
-  // 2× a ~600px slot in a 1920-wide deck — retina-sharp without making the
-  // sidecar enormous. A 1200px WebP at q=0.85 is ~150-300KB.
-  const MAX_DIM = 1200;
-  // Raster formats only. SVG is excluded (can carry script; createImageBitmap
-  // on SVG blobs is inconsistent). GIF is excluded because the canvas
-  // re-encode keeps only the first frame, so an animated GIF would silently
-  // go still — better to reject than surprise.
-  const ACCEPT = ['image/png', 'image/jpeg', 'image/webp', 'image/avif'];
-
-  // ── Shared sidecar store ────────────────────────────────────────────────
-  // One fetch + immediate write-on-change for every <image-slot> on the
-  // page. Reads via fetch() so viewing works anywhere the HTML and sidecar
-  // are served together; writes go through window.omelette.writeFile, which
-  // the host allowlists to *.state.json basenames only.
-  const subs = new Set();
-  let slots = {};
-  // ids explicitly cleared before the sidecar fetch resolved — otherwise
-  // the merge below can't tell "never set" from "just deleted" and would
-  // resurrect the sidecar's stale value.
-  const tombstones = new Set();
-  let loaded = false;
-  let loadP = null;
-
-  function load() {
-    if (loadP) return loadP;
-    loadP = fetch(STATE_FILE)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((j) => {
-        // Merge: sidecar loses to any in-memory change that raced ahead of
-        // the fetch (drop or clear) so neither is clobbered by hydration.
-        if (j && typeof j === 'object') {
-          const merged = Object.assign({}, j, slots);
-          // A framing-only write that raced ahead of hydration must not
-          // drop a user image that's only on disk — inherit u from the
-          // sidecar for any in-memory entry that lacks one.
-          for (const k in slots) {
-            if (merged[k] && !merged[k].u && j[k]) {
-              merged[k].u = typeof j[k] === 'string' ? j[k] : j[k].u;
-            }
-          }
-          for (const id of tombstones) delete merged[id];
-          slots = merged;
-        }
-        tombstones.clear();
-      })
-      .catch(() => {})
-      .then(() => { loaded = true; subs.forEach((fn) => fn()); });
-    return loadP;
-  }
-
-  // Serialize writes so two near-simultaneous drops on different slots
-  // can't reorder at the backend and leave the sidecar with only the
-  // first. A save requested mid-flight just marks dirty and re-fires on
-  // completion with the then-current slots.
-  let saving = false;
-  let saveDirty = false;
-  // Unload-time flush: save()'s serialization defers a mid-RTT re-fire to a
-  // .then that never runs in an unloading document, silently dropping a
-  // pagehide commit. Post the current slots immediately instead — content
-  // is a superset snapshot of any in-flight save's, the write is a
-  // whole-file last-writer-wins replace, and postMessage FIFO delivers it
-  // to the host after the in-flight one, so a backend-side reorder at
-  // worst reproduces the dropped-commit outcome this flush improves on.
-  // Guarded on the initial sidecar read: pre-hydration slots can miss
-  // other slots' persisted entries, and flushing it would clobber them —
-  // that narrow case stays best-effort (the in-memory merge in load()
-  // cannot happen in an unloading document anyway).
-  function flushNow() {
-    if (!loaded) return;
-    const w = window.omelette && window.omelette.writeFile;
-    if (!w) return;
-    try { Promise.resolve(w(STATE_FILE, JSON.stringify(slots))).catch(() => {}); } catch (e) {}
-  }
-  function save() {
-    if (saving) { saveDirty = true; return; }
-    const w = window.omelette && window.omelette.writeFile;
-    if (!w) return;
-    saving = true;
-    Promise.resolve(w(STATE_FILE, JSON.stringify(slots)))
-      .catch(() => {})
-      .then(() => { saving = false; if (saveDirty) { saveDirty = false; save(); } });
-  }
-
-  const S_MAX = 5;
-  const clampS = (s) => Math.max(1, Math.min(S_MAX, s));
-
-  // Normalize a stored slot value. Pre-reframe sidecars stored a bare
-  // data-URL string; newer ones store {u, s, x, y}. Either shape is valid.
-  function getSlot(id) {
-    const v = slots[id];
-    if (!v) return null;
-    return typeof v === 'string' ? { u: v, s: 1, x: 0, y: 0 } : v;
-  }
-
-  function setSlot(id, val) {
-    if (!id) return;
-    if (val) { slots[id] = val; tombstones.delete(id); }
-    else { delete slots[id]; if (!loaded) tombstones.add(id); }
-    subs.forEach((fn) => fn());
-    // A drop is rare + high-value — write immediately so nav-away can't lose
-    // it. Gate on the initial read so we don't overwrite a sidecar we haven't
-    // merged yet; the merge in load() keeps this change once the read lands.
-    if (loaded) save(); else load().then(save);
-  }
-
-  // ── Image downscale ─────────────────────────────────────────────────────
-  // Encode through a canvas so the sidecar carries resized bytes, not the
-  // raw upload. Longest side is capped at 2× the slot's rendered width
-  // (retina) and at MAX_DIM. WebP keeps alpha and is ~10× smaller than PNG
-  // for photos, so there's no need for per-image format picking.
-  async function toDataUrl(file, targetW) {
-    const bitmap = await createImageBitmap(file);
-    try {
-      const cap = Math.min(MAX_DIM, Math.max(1, Math.round(targetW * 2)) || MAX_DIM);
-      const scale = Math.min(1, cap / Math.max(bitmap.width, bitmap.height));
-      const w = Math.max(1, Math.round(bitmap.width * scale));
-      const h = Math.max(1, Math.round(bitmap.height * scale));
-      const canvas = document.createElement('canvas');
-      canvas.width = w; canvas.height = h;
-      canvas.getContext('2d').drawImage(bitmap, 0, 0, w, h);
-      return canvas.toDataURL('image/webp', 0.85);
-    } finally {
-      bitmap.close && bitmap.close();
-    }
-  }
-
-  // ── Custom element ──────────────────────────────────────────────────────
-  const stylesheet =
-    // Fill the container by default: slots are usually placed inside a
-    // sized wrapper (a hero frame, a grid cell, an inset:0 layer) and are
-    // expected to take that box — a fixed intrinsic size would render as
-    // a small tile in the corner of a full-bleed wrapper instead.
-    // aspect-ratio is the companion fallback that keeps a bare slot
-    // visible when the parent's height is indefinite: height:100%
-    // resolves to auto there, and the ratio then derives height from
-    // width instead of letting the slot collapse to zero height.
-    // Explicit width/height on the element override all of this.
-    // color:inherit (not a fixed near-black): the placeholder chrome —
-    // empty-state icon/caption (currentColor) and the dashed ring — must
-    // read on dark decks too, and the slide's own text color is the one
-    // color guaranteed to contrast with the slide background. The soft
-    // look comes from opacity on those parts, not from a baked-in alpha.
-    ':host{display:block;position:relative;' +
-    '  font:13px/1.3 system-ui,-apple-system,sans-serif;' +
-    '  width:100%;height:100%;aspect-ratio:3/2}' +
-    '.empty .cap,.empty .sub{opacity:.75}' +
-    '.frame{position:absolute;inset:0;overflow:hidden;background:rgba(127,127,127,.08)}' +
-    // .frame img (clipped) and .spill (unclipped ghost + handles) share the
-    // same left/top/width/height in frame-%, computed by _applyView(), so the
-    // inside-mask crop and the outside-mask spill stay pixel-aligned.
-    '.frame img{position:absolute;max-width:none;transform:translate(-50%,-50%);' +
-    '  -webkit-user-drag:none;user-select:none;touch-action:none}' +
-    // Reframe mode (double-click): the full image spills past the mask. The
-    // spill layer is sized to the IMAGE bounds so its corners are where the
-    // resize handles belong. The ghost <img> inside is translucent; the real
-    // clipped <img> underneath shows the opaque in-mask crop.
-    // popover=manual promotes the spill to the top layer on reframe, so it is
-    // not clipped by any overflow:hidden / clip-path / scroll-container
-    // ancestor (a plain z-index can't escape overflow clipping). UA popover
-    // defaults (inset:0;margin:auto) are reset; _applyView sets viewport px.
-    '.spill{position:fixed;margin:0;inset:auto;border:0;padding:0;background:transparent;' +
-    '  overflow:visible;transform:translate(-50%,-50%);z-index:1;cursor:grab;touch-action:none}' +
-    ':host([data-panning]) .spill{cursor:grabbing}' +
-    '.spill .ghost{position:absolute;inset:0;width:100%;height:100%;opacity:.35;' +
-    '  pointer-events:none;-webkit-user-drag:none;user-select:none;' +
-    '  box-shadow:0 0 0 1px rgba(0,0,0,.2),0 12px 32px rgba(0,0,0,.2)}' +
-    '.spill .handle{position:absolute;width:12px;height:12px;border-radius:50%;' +
-    '  background:#fff;box-shadow:0 0 0 1.5px #c96442,0 1px 3px rgba(0,0,0,.3);' +
-    '  transform:translate(-50%,-50%)}' +
-    '.spill .handle[data-c=nw]{left:0;top:0;cursor:nwse-resize}' +
-    '.spill .handle[data-c=ne]{left:100%;top:0;cursor:nesw-resize}' +
-    '.spill .handle[data-c=sw]{left:0;top:100%;cursor:nesw-resize}' +
-    '.spill .handle[data-c=se]{left:100%;top:100%;cursor:nwse-resize}' +
-    ':host([data-reframe]){z-index:10}' +
-    ':host([data-reframe]) .frame{box-shadow:0 0 0 2px #c96442}' +
-    '.empty{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;' +
-    '  justify-content:center;gap:6px;text-align:center;padding:12px;box-sizing:border-box;' +
-    '  cursor:pointer;user-select:none}' +
-    '.empty svg{opacity:.45}' +
-    '.empty .cap{max-width:90%;font-weight:500;letter-spacing:.01em}' +
-    '.empty .sub{font-size:11px}' +
-    '.empty .sub u{text-underline-offset:2px}' +
-    '.empty:hover .sub{opacity:1}' +
-    ':host([data-over]) .frame{outline:2px solid #c96442;outline-offset:-2px;' +
-    '  background:rgba(201,100,66,.10)}' +
-    '.ring{position:absolute;inset:0;pointer-events:none;border:1.5px dashed currentColor;' +
-    '  opacity:.35;transition:border-color .12s,opacity .12s}' +
-    ':host([data-over]) .ring{border-color:#c96442;opacity:1}' +
-    ':host([data-filled]) .ring{display:none}' +
-    // Controls overlay INSIDE the frame, pinned to the top-right corner, so
-    // a full-bleed slot in an overflow:hidden container still shows them
-    // (the old below-mask placement got clipped). Credit sits bottom-left,
-    // so top-right avoids collision. The blurred pill background keeps them
-    // legible over the image.
-    // The UA [popover] base rule styles the element in EVERY state (only
-    // display:none is gated on :not(:popover-open), and the display:flex
-    // below overrides that) — so the UA resets live HERE, like .spill's,
-    // or the ordinary hover-state strip renders as a bordered Canvas box
-    // centered by margin:auto. inset:auto precedes top/right (shorthand).
-    '.ctl{position:absolute;inset:auto;top:8px;right:8px;margin:0;border:0;padding:0;' +
-    '  background:transparent;overflow:visible;' +
-    '  display:flex;gap:6px;opacity:0;pointer-events:none;transition:opacity .12s;z-index:2;' +
-    '  white-space:nowrap}' +
-    // While reframing, the spill owns the top layer and would swallow every
-    // click on the in-frame controls. Promoting .ctl into the top layer
-    // ABOVE the spill (shown after it — later popovers stack higher) keeps
-    // Edit-as-toggle and Replace clickable mid-reframe. _applyView pins it
-    // to the frame's top-right in viewport px (translateX(-100%)
-    // right-aligns against the computed left edge); inset:auto clears the
-    // base rule's top/right so the inline left/top position it alone.
-    '.ctl:popover-open{position:fixed;inset:auto;transform:translateX(-100%)}' +
-    ':host([data-filled][data-editable]:hover) .ctl,:host([data-reframe]) .ctl' +
-    '  {opacity:1;pointer-events:auto}' +
-    '.ctl button{appearance:none;border:0;border-radius:6px;padding:5px 10px;cursor:pointer;' +
-    '  background:rgba(0,0,0,.65);color:#fff;font:11px/1 system-ui,-apple-system,sans-serif;' +
-    '  backdrop-filter:blur(6px)}' +
-    '.ctl button:hover{background:rgba(0,0,0,.8)}' +
-    '.err{position:absolute;left:8px;bottom:8px;right:8px;color:#b3261e;font-size:11px;' +
-    '  background:rgba(255,255,255,.85);padding:4px 6px;border-radius:5px;pointer-events:none}' +
-    // Replacement in flight: after a src swap the browser keeps painting
-    // the PREVIOUS image until the new one decodes, so a Replace would
-    // flash the old photo and then pop. Hide the stale frame (visibility,
-    // not display — _applyView geometry still applies) and spin until the
-    // new image reports in (load/error clears data-swapping).
-    ':host([data-swapping]) .frame img{visibility:hidden}' +
-    '.loading{position:absolute;inset:0;display:none;align-items:center;' +
-    '  justify-content:center;pointer-events:none}' +
-    ':host([data-swapping]) .loading{display:flex}' +
-    '.loading::after{content:"";width:22px;height:22px;border-radius:50%;' +
-    '  border:2px solid rgba(127,127,127,.25);border-top-color:currentColor;' +
-    '  animation:om-slot-spin .7s linear infinite}' +
-    '@keyframes om-slot-spin{to{transform:rotate(360deg)}}' +
-    // Reduced motion: the static two-tone ring still reads as "working".
-    '@media (prefers-reduced-motion:reduce){.loading::after{animation:none}}' +
-    '.credit{position:absolute;left:6px;bottom:6px;max-width:calc(100% - 12px);display:none;' +
-    '  padding:3px 7px;border-radius:5px;background:rgba(0,0,0,.55);color:#fff;' +
-    '  font:10px/1.2 system-ui,-apple-system,sans-serif;text-decoration:none;' +
-    '  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;backdrop-filter:blur(6px)}' +
-    // The credit is a SPAN holding one or two <a>s (Unsplash's prescribed
-    // form links the photographer AND Unsplash) — anchors style inline so
-    // the overlay reads as one line of text.
-    '.credit a{color:inherit;text-decoration:none}' +
-    '.credit a:hover,.credit a:focus-visible{text-decoration:underline}' +
-    ':host([data-filled][data-credit]) .credit{display:block}' +
-    // Exports must ship JUST the image — no hover controls, no credit chip
-    // (the host marks <html data-om-exporting> for the capture window; the
-    // page-level hide script can't reach shadow DOM, this rule can).
-    ':host-context([data-om-exporting]) .ctl,' +
-    ':host-context([data-om-exporting]) .credit{display:none !important}' +
-    // Print must ship just the image too: the hover-gated controls can be
-    // mid-hover when print() fires, and the credit chip is screen chrome —
-    // the same rule the capture window gets, keyed on print media instead
-    // of the host's data-om-exporting mark (the print path sets no mark).
-    '@media print{.ctl,.credit{display:none !important}}' +
-    // No export-window mask rules here on purpose: the export capture
-    // releases the replacement mask by REMOVING data-swapping (the
-    // shadow-root pass in pages/export/shared.ts HIDE_EXPORT_CHROME_SCRIPT)
-    // — attribute removal works in every engine (:host-context is
-    // Chromium-only), is scoped by construction to slots actually
-    // mid-swap, and hides the spinner through the same gate. A masked img
-    // would otherwise be silently dropped from PPTX decks (the capture
-    // walk skips visibility:hidden imgs).
-    // Attribution error tile: REPLACES the photo when an Unsplash src has
-    // no credit attribute — rendering the photo uncredited is the terms
-    // violation, so the photo must not appear at all.
-    // Calm and neutral on purpose (review feedback): the tile informs the
-    // user; the fix instructions are machine-facing (usage docblock, tool
-    // description, and the turn-end scan's bounce copy name the attributes
-    // for the agent).
-    '.attr-error{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;' +
-    '  justify-content:center;gap:6px;text-align:center;padding:12px;box-sizing:border-box;' +
-    '  background:#f2f1ef;color:#6e6c66;user-select:none;' +
-    '  font:13px/1.45 system-ui,-apple-system,sans-serif}' +
-    '.attr-error svg{opacity:.55}' +
-    '.attr-error .cap{max-width:92%;font-weight:500;letter-spacing:.01em}' +
-    ':host([data-attribution-error]) .attr-error{display:flex}' +
-    ':host([data-attribution-error]) .ring{display:none}';
-
-  const icon =
-    '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
-    'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' +
-    '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>' +
-    '<path d="m21 15-5-5L5 21"/></svg>';
-
-  const warnIcon =
-    '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
-    'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' +
-    '<path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/>' +
-    '<path d="M12 9v4"/><path d="M12 17h.01"/></svg>';
-
-  class ImageSlot extends HTMLElement {
-    static get observedAttributes() {
-      return ['shape', 'radius', 'mask', 'fit', 'placeholder', 'src', 'id', 'credit', 'credit-href'];
-    }
-
-    /** Duplicate-slide hook (called by deck-stage, see its
-     *  _remintDuplicateIds): copy this id's stored image, if any, under a
-     *  freshly minted key and return that key — so a duplicated slide's
-     *  slot keeps its dropped photo instead of reverting to the
-     *  placeholder. 'isFree' is the caller's uniqueness check (document
-     *  ids); candidates must ALSO be unused in the sidecar, which can
-     *  hold keys from other pages sharing the project root. (An EMPTY
-     *  slot on another page leaves no sidecar entry, so its id is not
-     *  detectable here — a minted key can collide with it and that slot
-     *  would show this photo. Same blast radius as two pages reusing an
-     *  id by hand, which the shared sidecar already permits.) Returns null
-     *  when no id could be minted (caller strips the id, today's
-     *  behavior). */
-    static cloneSlot(fromId, isFree) {
-      if (typeof fromId !== 'string' || !fromId) return null;
-      // Pre-hydration the store can't veto candidates or source the copy
-      // — degrade to the strip (today's behavior) rather than mint
-      // against keys we can't see yet. Any rendered (= droppable) slot
-      // means load() has already settled.
-      if (!loaded) return null;
-      const stem = fromId.replace(/-\d+$/, '') || fromId;
-      for (let n = 2; n < 100; n++) {
-        const toId = stem + '-' + n;
-        if (toId === fromId) continue;
-        if (slots[toId] !== undefined) {
-          // Reuse a key holding this exact value (bytes AND crop) if no
-          // live element here owns it — a duplicate op the host refused
-          // after minting leaves such a key behind, and reusing keeps
-          // refused retries from accumulating one orphaned copy per
-          // attempt. Full equality (not just bytes) so a byte-identical
-          // key another PAGE owns with its own crop is stepped past, not
-          // adopted or rewritten. (Entries without .u never match.)
-          const prev = getSlot(toId);
-          const cur = getSlot(fromId);
-          if (!(prev && cur && prev.u && prev.u === cur.u &&
-                prev.s === cur.s && prev.x === cur.x && prev.y === cur.y &&
-                (typeof isFree !== 'function' || isFree(toId)))) continue;
-          return toId;
-        }
-        if (typeof isFree === 'function' && !isFree(toId)) continue;
-        const v = getSlot(fromId);
-        if (v) setSlot(toId, Object.assign({}, v));
-        return toId;
-      }
-      return null;
-    }
-
-    constructor() {
-      super();
-      // clonable: rail thumbnails deep-clone slides and carry this shadow
-      // along; reuse an already-cloned root so upgrade-after-clone works.
-      // (Deliberately NOT serializable — a getHTML consumer would embed
-      // multi-MB sidecar data-URLs into serialized page HTML.)
-      const root = this.shadowRoot ||
-        this.attachShadow({ mode: 'open', clonable: true });
-      // .spill and .ctl sit OUTSIDE .frame so overflow:hidden + border-radius
-      // on the frame (circle, pill, rounded) can't clip them.
-      root.innerHTML =
-        '<style>' + stylesheet + '</style>' +
-        '<div class="frame" part="frame">' +
-        '  <img part="image" alt="" draggable="false" style="display:none">' +
-        '  <div class="empty" part="empty">' + icon +
-        '    <div class="cap"></div>' +
-        '    <div class="sub">or <u>browse files</u></div></div>' +
-        '  <div class="attr-error" part="attribution-error">' + warnIcon +
-        '    <div class="cap">This photo needs attribution</div></div>' +
-        '  <div class="loading" part="loading"></div>' +
-        '  <div class="ring" part="ring"></div>' +
-        '</div>' +
-        // Outside .frame, like .spill/.ctl — the frame's overflow:hidden +
-        // border-radius/clip-path would cut the credit off on circle/pill/mask.
-        // A SPAN, not an <a>: the prescribed Unsplash credit holds two links
-        // (photographer + Unsplash), built per-render in _render().
-        '<span class="credit" part="credit"></span>' +
-        '<div class="spill" popover="manual" data-dc-edit-transparent>' +
-        '  <img class="ghost" alt="" draggable="false">' +
-        '  <div class="handle" data-c="nw"></div><div class="handle" data-c="ne"></div>' +
-        '  <div class="handle" data-c="sw"></div><div class="handle" data-c="se"></div>' +
-        '</div>' +
-        // data-dc-edit-transparent: the DC editor's edit-mode picker lets
-        // clicks through for chrome marked with it (EDIT_TRANSPARENT_SEL)
-        // — without it, Replace/Edit clicks in Edit mode are swallowed by
-        // element selection and the controls look dead.
-        '<div class="ctl" popover="manual" data-dc-edit-transparent><button data-act="replace" title="Replace image">Replace</button>' +
-        '  <button data-act="edit" title="Reframe image">Edit</button></div>' +
-        '<input type="file" accept="' + ACCEPT.join(',') + '" hidden>';
-      this._frame = root.querySelector('.frame');
-      this._ring = root.querySelector('.ring');
-      this._img = root.querySelector('.frame img');
-      this._empty = root.querySelector('.empty');
-      this._cap = root.querySelector('.cap');
-      this._sub = root.querySelector('.sub');
-      this._spill = root.querySelector('.spill');
-      this._ctl = root.querySelector('.ctl');
-      this._credit = root.querySelector('.credit');
-      this._attrError = root.querySelector('.attr-error');
-      // Credit clicks open the link, not browse/reframe.
-      this._credit.addEventListener('click', (e) => e.stopPropagation());
-      this._credit.addEventListener('dblclick', (e) => e.stopPropagation());
-      this._ghost = root.querySelector('.ghost');
-      this._err = null;
-      this._input = root.querySelector('input');
-      this._depth = 0;
-      this._gen = 0;
-      // Encode-in-flight marker (the owning _ingest generation): while set,
-      // the same-src "nothing in flight" clear in _render must not fire —
-      // the stored value still points at the OLD image until the encode
-      // lands, so that clear would unmask the stale image mid-replace.
-      this._swapGen = 0;
-      // Render-owned swap in flight: set when _render assigns a new src,
-      // cleared only by the img's own load/error (or the empty branch).
-      // img.complete CANNOT stand in for this — setting src only QUEUES
-      // the current-request swap (a microtask), so synchronously after an
-      // assignment, complete still reports the OLD settled request. The
-      // pick path does exactly that: the host sets src, credit, and
-      // credit-href back-to-back in one task, and renders #2/#3 would
-      // read the stale complete === true and drop the mask one render
-      // after it was set.
-      this._loadPending = false;
-      // See _render's empty branch: a transient attribution-error wipe of a
-      // showing image must make the follow-up render a replacement (spinner),
-      // not a first fill (blank frame).
-      this._hidShowing = false;
-      this._view = { s: 1, x: 0, y: 0 };
-      this._subFn = () => this._render();
-      // Shadow-DOM listeners live with the shadow DOM — bound once here so
-      // disconnect/reconnect (e.g. React remount) doesn't stack handlers.
-      this._empty.addEventListener('click', () => this._input.click());
-      root.addEventListener('click', (e) => {
-        const act = e.target && e.target.getAttribute && e.target.getAttribute('data-act');
-        if (!act) return;
-        // The hidden controls are opacity-0 but still tabbable — without
-        // this gate a keyboard user could drive them on a read-only share
-        // link (mirrors the dblclick handler's editable gate).
-        if (!this.hasAttribute('data-editable')) return;
-        if (act === 'replace') {
-          this._exitReframe(true);
-          // Host-owned picker (Unsplash modal; it also offers local import).
-          this.dispatchEvent(new CustomEvent('image-slot:pick', {
-            bubbles: true, composed: true, detail: { id: this.id || null }
-          }));
-        }
-        if (act === 'edit') {
-          if (!this._reframes()) return;
-          if (this.hasAttribute('data-reframe')) this._exitReframe(true);
-          else this._enterReframe();
-        }
-      });
-      this._input.addEventListener('change', () => {
-        const f = this._input.files && this._input.files[0];
-        if (f) this._ingest(f);
-        this._input.value = '';
-      });
-      // naturalWidth/Height aren't known until load — re-apply so the cover
-      // baseline is computed from real dimensions, not the 100%×100% fallback.
-      // load/error also release the replacement-in-flight mask (via the
-      // single discipline in _releaseMask): the swap is only revealed once
-      // the new image can actually paint (on error the frame shows its
-      // background, same as a fresh slot with a broken src).
-      this._img.addEventListener('load', () => {
-        this._loadPending = false;
-        this._releaseMask(true);
-        this._applyView();
-      });
-      this._img.addEventListener('error', () => {
-        this._loadPending = false;
-        this._releaseMask(true);
-      });
-      // Gated only on editable — any filled slot can be repositioned/scaled,
-      // regardless of fit. Share links (no writeFile) stay static.
-      this.addEventListener('dblclick', (e) => {
-        if (!this.hasAttribute('data-editable') || !this._reframes()) return;
-        e.preventDefault();
-        if (this.hasAttribute('data-reframe')) this._exitReframe(true);
-        else this._enterReframe();
-      });
-      // Pan + resize both originate on the spill layer. A handle pointerdown
-      // drives an aspect-locked resize anchored at the opposite corner; any
-      // other pointerdown on the spill pans. Offsets are frame-% so a
-      // reframed slot survives responsive resize / PPTX export.
-      this._spill.addEventListener('pointerdown', (e) => {
-        if (e.button !== 0 || !this.hasAttribute('data-reframe')) return;
-        e.preventDefault();
-        e.stopPropagation();
-        this._spill.setPointerCapture(e.pointerId);
-        const rect = this.getBoundingClientRect();
-        const fw = rect.width || 1, fh = rect.height || 1;
-        const corner = e.target.getAttribute && e.target.getAttribute('data-c');
-        let move;
-        if (corner) {
-          // Resize about the OPPOSITE corner. Viewport-px throughout (rect
-          // fw/fh, not clientWidth) so the math survives a transform:scale()
-          // ancestor — deck_stage renders slides scaled-to-fit.
-          const iw = this._img.naturalWidth || 1, ih = this._img.naturalHeight || 1;
-          const contain = (this.getAttribute('fit') || 'cover').toLowerCase() === 'contain';
-          const base = contain ? Math.min(fw / iw, fh / ih) : Math.max(fw / iw, fh / ih);
-          const sx = corner.includes('e') ? 1 : -1;
-          const sy = corner.includes('s') ? 1 : -1;
-          const s0 = this._view.s;
-          const w0 = iw * base * s0, h0 = ih * base * s0;
-          const cx0 = (50 + this._view.x) / 100 * fw;
-          const cy0 = (50 + this._view.y) / 100 * fh;
-          const ox = cx0 - sx * w0 / 2, oy = cy0 - sy * h0 / 2;
-          const diag0 = Math.hypot(w0, h0);
-          const ux = sx * w0 / diag0, uy = sy * h0 / diag0;
-          move = (ev) => {
-            const proj = (ev.clientX - rect.left - ox) * ux +
-                         (ev.clientY - rect.top - oy) * uy;
-            const s = clampS(s0 * proj / diag0);
-            const d = diag0 * s / s0;
-            this._view.s = s;
-            this._view.x = (ox + ux * d / 2) / fw * 100 - 50;
-            this._view.y = (oy + uy * d / 2) / fh * 100 - 50;
-            this._clampView();
-            this._applyView();
-          };
-        } else {
-          this.setAttribute('data-panning', '');
-          const start = { px: e.clientX, py: e.clientY, x: this._view.x, y: this._view.y };
-          move = (ev) => {
-            this._view.x = start.x + (ev.clientX - start.px) / fw * 100;
-            this._view.y = start.y + (ev.clientY - start.py) / fh * 100;
-            this._clampView();
-            this._applyView();
-          };
-        }
-        const up = () => {
-          try { this._spill.releasePointerCapture(e.pointerId); } catch {}
-          this._spill.removeEventListener('pointermove', move);
-          this._spill.removeEventListener('pointerup', up);
-          this._spill.removeEventListener('pointercancel', up);
-          this.removeAttribute('data-panning');
-          this._dragUp = null;
-        };
-        // Stashed so _exitReframe (Escape / outside-click mid-drag) can
-        // tear the capture + listeners down synchronously.
-        this._dragUp = up;
-        this._spill.addEventListener('pointermove', move);
-        this._spill.addEventListener('pointerup', up);
-        this._spill.addEventListener('pointercancel', up);
-      });
-      // Wheel zoom stays available inside reframe mode as a trackpad nicety —
-      // zooms toward the cursor (offset' = cursor·(1-k) + offset·k).
-      this.addEventListener('wheel', (e) => {
-        if (!this.hasAttribute('data-reframe')) return;
-        e.preventDefault();
-        const r = this.getBoundingClientRect();
-        const cx = (e.clientX - r.left) / r.width * 100 - 50;
-        const cy = (e.clientY - r.top) / r.height * 100 - 50;
-        const prev = this._view.s;
-        const next = clampS(prev * Math.pow(1.0015, -e.deltaY));
-        if (next === prev) return;
-        const k = next / prev;
-        this._view.s = next;
-        this._view.x = cx * (1 - k) + this._view.x * k;
-        this._view.y = cy * (1 - k) + this._view.y * k;
-        this._clampView();
-        this._applyView();
-      }, { passive: false });
-    }
-
-    connectedCallback() {
-      // Warn once per page — an id-less slot works for the session but
-      // cannot persist, and two id-less slots would share nothing.
-      if (!this.id && !ImageSlot._warned) {
-        ImageSlot._warned = true;
-        console.warn('<image-slot> without an id will not persist its dropped image.');
-      }
-      this.addEventListener('dragenter', this);
-      this.addEventListener('dragover', this);
-      this.addEventListener('dragleave', this);
-      this.addEventListener('drop', this);
-      subs.add(this._subFn);
-      // The host may inject window.omelette.writeFile AFTER the first render;
-      // re-render on hover so the editable-gated controls reliably appear.
-      this.addEventListener('pointerenter', this._subFn);
-      // width%/height% in _applyView encode the frame aspect at call time —
-      // a host resize (responsive grid, pane divider) would stretch the
-      // image until the next _render. Re-render on size change: _render()
-      // re-seeds _view from stored before clamp/apply, so a shrink→grow
-      // cycle round-trips instead of ratcheting x/y toward the narrower
-      // frame's clamp range.
-      this._ro = new ResizeObserver(() => this._render());
-      this._ro.observe(this);
-      load();
-      this._render();
-    }
-
-    disconnectedCallback() {
-      subs.delete(this._subFn);
-      this.removeEventListener('pointerenter', this._subFn);
-      this.removeEventListener('dragenter', this);
-      this.removeEventListener('dragover', this);
-      this.removeEventListener('dragleave', this);
-      this.removeEventListener('drop', this);
-      if (this._ro) { this._ro.disconnect(); this._ro = null; }
-      // commit=false: a disconnect is not a user intent — committing here
-      // would persist whatever half-finished drag a React remount or DOM
-      // splice happened to interrupt. Deliberate exits commit on their own
-      // paths (Escape/click-out/toggle), and unloads commit via pagehide.
-      this._exitReframe(false);
-    }
-
-    _enterReframe() {
-      if (this.hasAttribute('data-reframe')) return;
-      this.setAttribute('data-reframe', '');
-      this._signalReframe(true);
-      // Best-effort commit when the document unloads mid-reframe (a host
-      // navigation racing the enter signal, a manual reload, tab close):
-      // the sidecar write rides the host bridge, which outlives this
-      // document, so the crop survives even though the mode dies with the
-      // DOM. Held on the instance so _exitReframe detaches exactly what
-      // was attached.
-      this._pagehide = () => { this._exitReframe(true); flushNow(); };
-      window.addEventListener('pagehide', this._pagehide);
-      // Promote spill to the top layer, then keep it pinned over the frame:
-      // scroll/resize cover the common cases, and a per-frame rect check
-      // catches layout shifts that fire neither (an image above finishing
-      // load, streamed DOM pushing the slot down, an ancestor transform
-      // change) so the overlay can't detach from the frame.
-      try { this._spill.showPopover(); } catch {}
-      // After the spill, so the controls stack above it in the top layer.
-      try { this._ctl.showPopover(); } catch {}
-      this._reposition = () => { if (this.hasAttribute('data-reframe')) this._applyView(); };
-      window.addEventListener('scroll', this._reposition, true);
-      window.addEventListener('resize', this._reposition);
-      this._lastRect = '';
-      this._watch = () => {
-        if (!this.hasAttribute('data-reframe')) return;
-        const r = this.getBoundingClientRect();
-        const key = r.left + ',' + r.top + ',' + r.width + ',' + r.height;
-        if (key !== this._lastRect) { this._lastRect = key; this._applyView(); }
-        this._watchId = requestAnimationFrame(this._watch);
-      };
-      this._watchId = requestAnimationFrame(this._watch);
-      this._applyView();
-      // Close on click outside (the spill handler stopPropagation()s so
-      // in-image drags don't reach this) and on Escape. Listeners are held
-      // on the instance so _exitReframe / disconnectedCallback can detach
-      // exactly what was attached.
-      this._outside = (e) => {
-        if (e.composedPath && e.composedPath().includes(this)) return;
-        this._exitReframe(true);
-      };
-      this._esc = (e) => { if (e.key === 'Escape') this._exitReframe(true); };
-      document.addEventListener('pointerdown', this._outside, true);
-      document.addEventListener('keydown', this._esc, true);
-    }
-
-    _exitReframe(commit) {
-      if (!this.hasAttribute('data-reframe')) return;
-      if (this._dragUp) this._dragUp();
-      this.removeAttribute('data-reframe');
-      this.removeAttribute('data-panning');
-      if (this._outside) document.removeEventListener('pointerdown', this._outside, true);
-      if (this._esc) document.removeEventListener('keydown', this._esc, true);
-      this._outside = this._esc = null;
-      if (this._reposition) {
-        window.removeEventListener('scroll', this._reposition, true);
-        window.removeEventListener('resize', this._reposition);
-        this._reposition = null;
-      }
-      if (this._watchId) { cancelAnimationFrame(this._watchId); this._watchId = 0; }
-      if (this._pagehide) {
-        window.removeEventListener('pagehide', this._pagehide);
-        this._pagehide = null;
-      }
-      try { this._spill.hidePopover(); } catch {}
-      try { this._ctl.hidePopover(); } catch {}
-      this._ctl.style.left = ''; this._ctl.style.top = '';
-      if (commit) this._commitView();
-      this._signalReframe(false);
-    }
-
-    // Reframe state lives only in this DOM until commit, invisible to the
-    // host's dirty signals — announce enter/exit so the host can hold
-    // auto-reloads for exactly the gesture (the guest bundle forwards
-    // image-slot:reframe to the host as imageSlotReframe). Dispatched on
-    // the element (composed, so it escapes shadow roots) while connected;
-    // a disconnected exit (disconnectedCallback) falls back to document so
-    // the host still hears it.
-    _signalReframe(active) {
-      const target = this.isConnected ? this : document;
-      target.dispatchEvent(new CustomEvent('image-slot:reframe', {
-        bubbles: true, composed: true,
-        detail: { active: active, id: this.id || null }
-      }));
-    }
-
-    // Public: host's "Import from computer" calls this to run local browse.
-    openFilePicker() { this._exitReframe(true); this._input.click(); }
-
-    // A src write is a newer intent for this slot's content — the host
-    // pick path (setImageSlotImage) or an agent edit — so it must win
-    // over any encode still in flight from an earlier drop: left live,
-    // that encode lands later, passes _ingest's gen guard, and its
-    // setSlot silently overwrites the pick (the stored value shadows
-    // src in _render). Bumping _gen kills the encode before its own
-    // _swapGen clear runs, so clear the dead claim here too — otherwise
-    // _releaseMask (gated on !_swapGen) never fires and the pick's
-    // spinner is stranded. src ONLY: the pick sets credit/credit-href
-    // in the same task, and clearing _swapGen on those would let the
-    // same-src branch unmask the old image mid-encode.
-    attributeChangedCallback(name, oldVal, newVal) {
-      if (name === 'src' && oldVal !== newVal) {
-        this._gen++;
-        this._swapGen = 0;
-      }
-      if (this.shadowRoot) this._render();
-    }
-
-    // handleEvent — one listener object for all four drag events keeps the
-    // add/remove symmetric and the depth counter correct.
-    handleEvent(e) {
-      if (e.type === 'dragenter' || e.type === 'dragover') {
-        // Without preventDefault the browser never fires 'drop'.
-        e.preventDefault();
-        e.stopPropagation();
-        if (e.dataTransfer) e.dataTransfer.dropEffect = 'copy';
-        if (e.type === 'dragenter') this._depth++;
-        this.setAttribute('data-over', '');
-      } else if (e.type === 'dragleave') {
-        // dragenter/leave fire for every descendant crossing — count depth
-        // so hovering the icon inside the empty state doesn't flicker.
-        if (--this._depth <= 0) { this._depth = 0; this.removeAttribute('data-over'); }
-      } else if (e.type === 'drop') {
-        e.preventDefault();
-        e.stopPropagation();
-        this._depth = 0;
-        this.removeAttribute('data-over');
-        const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
-        if (f) this._ingest(f);
-      }
-    }
-
-    async _ingest(file) {
-      this._setError(null);
-      if (!file || ACCEPT.indexOf(file.type) < 0) {
-        this._setError('Drop a PNG, JPEG, WebP, or AVIF image.');
-        return;
-      }
-      // toDataUrl can take hundreds of ms on a large photo. A Clear or a
-      // newer drop during that window would be clobbered when this await
-      // resumes — bump + capture a generation so stale encodes bail.
-      const gen = ++this._gen;
-      // Replacing a shown image: surface the swap through the encode too,
-      // not just the decode — otherwise the old photo sits there with no
-      // feedback while the canvas re-encode runs. An empty slot keeps its
-      // placeholder (no spinner) until the encode lands, as before.
-      // _swapGen guards the mask against re-renders DURING the encode
-      // (pointerenter, ResizeObserver, another slot's store write): the
-      // stored value still resolves to the old image there, so _render's
-      // same-src clear would otherwise unmask it mid-replace.
-      if (this.hasAttribute('data-filled')) {
-        this.setAttribute('data-swapping', '');
-        this._swapGen = gen;
-      }
-      try {
-        const w = this.clientWidth || this.offsetWidth || MAX_DIM;
-        const url = await toDataUrl(file, w);
-        if (gen !== this._gen) return;
-        // Only exit reframe once the new image is in hand — a rejected type
-        // or decode failure leaves the in-progress crop untouched.
-        this._exitReframe(false);
-        // Clear BEFORE setSlot: its synchronous re-render must see no
-        // pending encode, so a byte-identical re-upload (same data URL, no
-        // load event coming) still clears the mask via the complete branch.
-        this._swapGen = 0;
-        const val = { u: url, s: 1, x: 0, y: 0 };
-        setSlot(this.id || '', val);
-        // Keep a session-local copy for id-less slots so the drop still
-        // shows, even though it cannot persist.
-        if (!this.id) { this._local = val; this._render(); }
-      } catch (err) {
-        if (gen !== this._gen) return;
-        this._swapGen = 0;
-        // Reveal the kept old image — unless another replacement (a
-        // remote pick's src swap) is still in flight, in which case the
-        // mask stays until THAT image settles (its load/error releases).
-        this._releaseMask();
-        this._setError('Could not read that image.');
-        console.warn('<image-slot> ingest failed:', err);
-      }
-    }
-
-    _setError(msg) {
-      if (this._err) { this._err.remove(); this._err = null; }
-      if (!msg) return;
-      const d = document.createElement('div');
-      d.className = 'err'; d.textContent = msg;
-      this.shadowRoot.appendChild(d);
-      this._err = d;
-      setTimeout(() => { if (this._err === d) { d.remove(); this._err = null; } }, 3000);
-    }
-
-    // Reframing (pan/resize) is available on any filled slot — the user can
-    // always reposition/scale. `fit` only sets the initial baseline (see
-    // _geom): contain starts fully-visible, cover starts frame-filling.
-    _reframes() {
-      return this.hasAttribute('data-filled');
-    }
-
-    // The single release discipline for the replacement-in-flight mask
-    // (data-swapping). The mask comes off only when BOTH hold:
-    //  - no encode is pending (_swapGen) — mid-encode the stored value
-    //    still resolves to the old image, so any reveal paints it;
-    //  - the frame img has settled on its current src — an unsettled src
-    //    means some replacement is still in flight (e.g. a remote pick),
-    //    whoever started it, and revealing would paint the previous
-    //    frame. The load/error listeners pass settled=true (the event IS
-    //    the settlement signal, per spec complete is true by then);
-    //    other callers rely on the complete flag (covers loaded AND
-    //    failed).
-    // Every release path funnels through here EXCEPT _render's empty
-    // branch (the img is being cleared — nothing will ever settle).
-    _releaseMask(settled) {
-      if (
-        !this._swapGen &&
-        !this._loadPending &&
-        (settled || this._img.complete)
-      ) {
-        this.removeAttribute('data-swapping');
-      }
-    }
-
-    // Baseline geometry, shared by clamp/apply/resize. `base` is the scale at
-    // view-scale s=1: cover = fill the frame (overflow on the looser axis),
-    // contain = fit fully inside (letterboxed). Zooming a contain image past
-    // s where it overflows naturally becomes a crop. Null until the img has
-    // loaded (naturalWidth is 0 before that) or when the slot has no layout
-    // box — ResizeObserver fires with a 0×0 rect under display:none, and
-    // clamping against a degenerate 1×1 frame would silently pull the stored
-    // pan toward zero.
-    _geom() {
-      const iw = this._img.naturalWidth, ih = this._img.naturalHeight;
-      const fw = this.clientWidth, fh = this.clientHeight;
-      if (!iw || !ih || !fw || !fh) return null;
-      const contain = (this.getAttribute('fit') || 'cover').toLowerCase() === 'contain';
-      const base = contain
-        ? Math.min(fw / iw, fh / ih)
-        : Math.max(fw / iw, fh / ih);
-      return { iw, ih, fw, fh, base };
-    }
-    _clampView() {
-      // Pan range on each axis is half the overflow past the frame edge.
-      const g = this._geom();
-      if (!g) return;
-      const mx = Math.max(0, (g.iw * g.base * this._view.s / g.fw - 1) * 50);
-      const my = Math.max(0, (g.ih * g.base * this._view.s / g.fh - 1) * 50);
-      this._view.x = Math.max(-mx, Math.min(mx, this._view.x));
-      this._view.y = Math.max(-my, Math.min(my, this._view.y));
-    }
-
-    _applyView() {
-      const g = this._geom();
-      // Top-layer controls: pin to the frame's top-right in viewport px
-      // (the same 8px inset as the in-frame layout; unscaled — top-layer UI
-      // reads as chrome, not page content). BEFORE the geometry branch:
-      // placement needs only the frame rect, and a not-yet-loaded or broken
-      // src must not leave the promoted strip floating unpositioned. Gated
-      // on the popover actually being open: without the Popover API,
-      // showPopover() threw (swallowed in _enterReframe), .ctl stays in
-      // its in-frame absolute layout, and viewport-px coordinates would
-      // shove it off-frame — and matches(':popover-open') itself throws
-      // there (unknown pseudo-class), hence the try/catch.
-      if (this.hasAttribute('data-reframe')) {
-        let onTop = false;
-        try { onTop = this._ctl.matches(':popover-open'); } catch {}
-        if (onTop) {
-          const r = this.getBoundingClientRect();
-          this._ctl.style.left = (r.right - 8) + 'px';
-          this._ctl.style.top = (r.top + 8) + 'px';
-        }
-      }
-      if (!g) {
-        // Dimensions not known yet (before img load) — centered fit so there
-        // is no flash of an unpositioned image before the geometry lands.
-        const contain = (this.getAttribute('fit') || 'cover').toLowerCase() === 'contain';
-        this._img.style.width = '100%';
-        this._img.style.height = '100%';
-        this._img.style.left = '50%';
-        this._img.style.top = '50%';
-        this._img.style.objectFit = contain ? 'contain' : 'cover';
-        return;
-      }
-      // Baseline (cover-fill or contain-fit) × view scale. Width/height and
-      // left/top are all frame-% — depends only on the frame aspect ratio, so
-      // a responsive resize keeps the same crop. The spill layer mirrors the
-      // same box so its corners = image corners.
-      const k = g.base * this._view.s;
-      const w = (g.iw * k / g.fw * 100) + '%';
-      const h = (g.ih * k / g.fh * 100) + '%';
-      const l = (50 + this._view.x) + '%';
-      const t = (50 + this._view.y) + '%';
-      this._img.style.width = w; this._img.style.height = h;
-      this._img.style.left = l; this._img.style.top = t;
-      this._img.style.objectFit = '';
-      if (this.hasAttribute('data-reframe')) {
-        // Top-layer spill: position in viewport px over the frame. The top
-        // layer escapes ancestor transforms entirely, so EVERY term must be
-        // in viewport units: getBoundingClientRect gives the frame's scaled
-        // origin AND size, and the rect/layout ratio rescales the ghost —
-        // sizing from layout px alone renders it 1/scale too large under a
-        // scaled deck slide. Inner ghost + handles stay box-relative.
-        const r = this.getBoundingClientRect();
-        const sx = g.fw ? r.width / g.fw : 1;
-        const sy = g.fh ? r.height / g.fh : 1;
-        this._spill.style.width = (g.iw * k * sx) + 'px';
-        this._spill.style.height = (g.ih * k * sy) + 'px';
-        this._spill.style.left = (r.left + (50 + this._view.x) / 100 * r.width) + 'px';
-        this._spill.style.top = (r.top + (50 + this._view.y) / 100 * r.height) + 'px';
-      }
-    }
-
-    _commitView() {
-      const v = { s: this._view.s, x: this._view.x, y: this._view.y };
-      if (this._userUrl) v.u = this._userUrl;
-      // Framing-only (no u) persists too so an author-src slot remembers its
-      // crop; clearing the sidecar still falls through to src=.
-      if (this.id) setSlot(this.id, v);
-      else { this._local = v; }
-    }
-
-    _render() {
-      // Shape / mask. Presets use border-radius so the dashed ring can
-      // follow the rounded outline; clip-path is only applied for an
-      // explicit `mask` (the ring is hidden there since a rectangle
-      // dashed border chopped by an arbitrary polygon looks broken).
-      const mask = this.getAttribute('mask');
-      const shape = (this.getAttribute('shape') || 'rounded').toLowerCase();
-      let radius = '';
-      if (shape === 'circle') radius = '50%';
-      else if (shape === 'pill') radius = '9999px';
-      else if (shape === 'rounded') {
-        const n = parseFloat(this.getAttribute('radius'));
-        radius = (Number.isFinite(n) ? n : 12) + 'px';
-      }
-      this._frame.style.borderRadius = mask ? '' : radius;
-      this._frame.style.clipPath = mask || '';
-      this._ring.style.borderRadius = mask ? '' : radius;
-      this._ring.style.display = mask ? 'none' : '';
-
-      // Controls and reframe entry gate on this so share links stay read-only.
-      const editable = !!(window.omelette && window.omelette.writeFile);
-      this.toggleAttribute('data-editable', editable);
-      this._sub.style.display = editable ? '' : 'none';
-
-      // Content. The sidecar is also writable by the agent's write_file
-      // tool, so its value isn't guaranteed canvas-originated — only accept
-      // data:image/ URLs from it. The `src` attribute is author-controlled
-      // (Claude wrote it into the HTML) so it passes through unchanged.
-      let stored = this.id ? getSlot(this.id) : this._local;
-      if (stored && stored.u && !/^data:image\//i.test(stored.u)) stored = null;
-      const srcAttr = this.getAttribute('src') || '';
-      this._userUrl = (stored && stored.u) || null;
-      const url = this._userUrl || srcAttr;
-      // Don't clobber an in-flight reframe with a store-triggered re-render.
-      if (!this.hasAttribute('data-reframe')) {
-        this._view = {
-          s: stored && Number.isFinite(stored.s) ? clampS(stored.s) : 1,
-          x: stored && Number.isFinite(stored.x) ? stored.x : 0,
-          y: stored && Number.isFinite(stored.y) ? stored.y : 0,
-        };
-      }
-      this._cap.textContent = this.getAttribute('placeholder') || 'Drop an image';
-      // Toggle via style.display — the [hidden] attribute alone loses to
-      // the display:flex / display:block rules in the stylesheet above.
-      // An Unsplash src with no credit attribute must NOT render — showing
-      // the photo uncredited is the Unsplash-terms violation itself. The
-      // error tile replaces the photo until the credit is written. A
-      // user-dropped image is the user's own content and always renders.
-      // Trimmed: credit is agent/user-editable content, and a whitespace-
-      // only value must count as missing — otherwise it would suppress the
-      // error tile AND render an empty credit box (no text, no links),
-      // exactly the unattributed state this gate exists to prevent.
-      const credit = (this.getAttribute('credit') || '').trim();
-      const attrError = !!(
-        !credit && !this._userUrl && srcAttr && isUnsplashHost(srcAttr)
-      );
-      this.toggleAttribute('data-attribution-error', attrError);
-      if (url && !attrError) {
-        const prev = this._img.getAttribute('src');
-        if (prev !== url) {
-          // Replacing an already-shown image: mark the swap BEFORE setting
-          // src so the stale frame is never revealed (see the data-swapping
-          // stylesheet rules). First fill (prev empty) keeps the existing
-          // placeholder-until-load behavior — no spinner. _hidShowing
-          // covers the pick path's transient attribution-error wipe: prev
-          // is gone, but an image WAS showing, so this is a replacement.
-          if (prev || this._hidShowing) this.setAttribute('data-swapping', '');
-          // Mark the swap BEFORE assigning src: complete keeps reporting
-          // the old settled request until the browser's
-          // update-the-image-data microtask runs, so same-task re-renders
-          // (the pick path's credit/credit-href setAttributes) need this
-          // flag, not complete, to know a load is in flight.
-          this._loadPending = true;
-          this._img.src = url;
-          this._ghost.src = url;
-        } else {
-          // Same-src re-render — release if settled, so an ingest-set
-          // spinner can't stick after a byte-identical re-upload (same
-          // data URL, no further load event ever fires).
-          this._releaseMask();
-        }
-        this._hidShowing = false;
-        this._img.style.display = 'block';
-        this._empty.style.display = 'none';
-        this.setAttribute('data-filled', '');
-        this._clampView();
-        this._applyView();
-      } else {
-        this.removeAttribute('data-swapping');
-        // The src is being removed — no load/error will ever fire for it.
-        this._loadPending = false;
-        // A transient attribution-error wipe of a showing image happens on
-        // the pick path: the host sets src one setAttribute before credit,
-        // so render N hides the old image (attrError) and render N+1
-        // restores a URL. Remember the wipe so that restore renders as a
-        // replacement (spinner), not a first fill (blank frame).
-        this._hidShowing = attrError && !!this._img.getAttribute('src');
-        this._img.style.display = 'none';
-        this._img.removeAttribute('src');
-        this._ghost.removeAttribute('src');
-        // The error tile owns the blocked-photo state; .empty stays for
-        // the genuinely-empty slot.
-        this._empty.style.display = attrError ? 'none' : 'flex';
-        this.removeAttribute('data-filled');
-      }
-
-      // Credit belongs to the author src, so a user drop hides it.
-      // textContent + the http(s)-only funnel keep external strings inert.
-      const showCredit = !!(url && credit && !this._userUrl && !attrError);
-      this._credit.textContent = '';
-      if (showCredit) {
-        // Validate once (resolved against the document, http(s) only),
-        // then append the terms-required utm referral params to links
-        // that point back at unsplash.com.
-        let href = '';
-        const rawHref = this.getAttribute('credit-href') || '';
-        if (rawHref) {
-          try {
-            const u = new URL(rawHref, document.baseURI);
-            if (u.protocol === 'http:' || u.protocol === 'https:') {
-              href = withReferral(u.href);
-            }
-          } catch {}
-        }
-        const mkLink = (text, linkHref) => {
-          const a = document.createElement('a');
-          a.setAttribute('target', '_blank');
-          a.setAttribute('rel', 'noopener noreferrer');
-          a.setAttribute('href', linkHref);
-          a.textContent = text;
-          return a;
-        };
-        // Unsplash's prescribed credit is TWO links — the photographer's
-        // name to their profile (credit-href) and 'Unsplash' to the
-        // homepage. Render that split whenever the text has the canonical
-        // shape; other text keeps the legacy single-link rendering.
-        const m = /^Photo by (.+) on Unsplash$/.exec(credit);
-        if (m) {
-          this._credit.appendChild(document.createTextNode('Photo by '));
-          this._credit.appendChild(
-            href ? mkLink(m[1], href) : document.createTextNode(m[1])
-          );
-          this._credit.appendChild(document.createTextNode(' on '));
-          this._credit.appendChild(mkLink('Unsplash', UNSPLASH_HOMEPAGE_HREF));
-        } else if (href) {
-          this._credit.appendChild(mkLink(credit, href));
-        } else {
-          this._credit.textContent = credit;
-        }
-      }
-      this.toggleAttribute('data-credit', showCredit);
-    }
-  }
-
-  if (!customElements.get('image-slot')) {
-    customElements.define('image-slot', ImageSlot);
-  }
-})();
-
-</script><script>
-(function(){
-const E='cubic-bezier(.16,.84,.24,1)';
-const T={
- up:[{opacity:0,transform:'translateY(56px)'},{opacity:1,transform:'none'}],
- fade:[{opacity:0},{opacity:1}],
- line:[{transform:'translateY(110%)'},{transform:'none'}],
- wipe:[{clipPath:'inset(100% 0 0 0)'},{clipPath:'inset(0 0 0 0)'}],
- wipex:[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],
- zoom:[{transform:'scale(1.22)'},{transform:'scale(1)'}],
- strike:[{transform:'scaleX(0)'},{transform:'scaleX(1)'}],
- left:[{opacity:0,transform:'translateX(-48px)'},{opacity:1,transform:'none'}],
- right:[{opacity:0,transform:'translateX(48px)'},{opacity:1,transform:'none'}],
- pop:[{opacity:0,transform:'translateY(18px) scale(.96)'},{opacity:1,transform:'none'}],
- mark:[{backgroundSize:'0% 100%'},{backgroundSize:'100% 100%'}],
- under:[{backgroundSize:'0% 3px'},{backgroundSize:'100% 3px'}]
-};
-const D={up:1200,fade:1400,line:1200,wipe:1600,wipex:1500,zoom:2800,strike:800,left:1100,right:1100,pop:700,mark:900,under:900};
-function attach(root,opts){
- opts=opts||{};
- if(!root||matchMedia('(prefers-reduced-motion: reduce)').matches) return ()=>{};
- const all=[],items=new Map(),timers=[];
- const mk=(el,type,delay)=>{const a=el.animate(T[type],{duration:+el.dataset.dur||D[type],delay:delay||0,easing:E,fill:'both'});a.pause();a.currentTime=0;all.push(a);return a;};
- const reg=(el,anims,onShow)=>{items.set(el,{anims,onShow});};
- root.querySelectorAll('[data-reveal]').forEach(el=>reg(el,[mk(el,el.dataset.reveal,+el.dataset.delay||0)]));
- root.querySelectorAll('[data-lines]').forEach(el=>{const base=+el.dataset.delay||0;reg(el,[...el.querySelectorAll('[data-line]')].map((l,i)=>mk(l,'line',base+i*130)));});
- root.querySelectorAll('[data-stagger]').forEach(el=>{const g=+el.dataset.gap||90,base=+el.dataset.delay||0;reg(el,[...el.children].map((c,i)=>mk(c,el.dataset.stagger,base+i*g)));});
- root.querySelectorAll('[data-count]').forEach(el=>{const n=+el.dataset.count,pre=el.dataset.prefix||'';el.textContent=pre+'0';reg(el,[],()=>{const t0=performance.now();const f=t=>{const k=Math.min(1,(t-t0)/1600);el.textContent=pre+Math.round(n*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(f);};requestAnimationFrame(f);});});
- root.querySelectorAll('[data-ba]').forEach(el=>reg(el,[],()=>opts.onBA&&setTimeout(()=>opts.onBA(+el.dataset.ba),400+(+el.dataset.ba)*250)));
- const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const it=items.get(e.target);if(!it)return;it.anims.forEach(a=>a.play());it.onShow&&it.onShow();io.unobserve(e.target);}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
- items.forEach((_,el)=>io.observe(el));
- root.querySelectorAll('[data-pulse]').forEach(el=>{const c=el.dataset.pulse||'245,241,234';timers.push(setInterval(()=>el.animate([{boxShadow:`0 0 0 0 rgba(${c},.55)`},{boxShadow:`0 0 0 22px rgba(${c},0)`}],{duration:1500,easing:'ease-out'}),4000));});
- root.querySelectorAll('[data-shine]').forEach(el=>{const f=()=>el.animate([{transform:'translateX(-120%) skewX(-20deg)'},{transform:'translateX(320%) skewX(-20deg)'}],{duration:1100,easing:'ease-in-out'});f();timers.push(setInterval(f,3800));});
- root.querySelectorAll('[data-marquee]').forEach(el=>all.push(el.animate([{transform:'translateX(0)'},{transform:'translateX(-50%)'}],{duration:(+el.dataset.marquee||50)*1000,iterations:Infinity})));
- const px=[...root.querySelectorAll('[data-parallax]')];let raf=0;
- const upd=()=>{raf=0;const vh=innerHeight;px.forEach(el=>{const r=el.parentElement.getBoundingClientRect();if(r.bottom<-200||r.top>vh+200)return;const o=(r.top+r.height/2-vh/2)*(+el.dataset.parallax);el.style.transform=`translate3d(0,${o.toFixed(1)}px,0) scale(${el.dataset.scale||1.18})`;});};
- const onS=()=>{if(!raf)raf=requestAnimationFrame(upd);};
- if(px.length){document.addEventListener('scroll',onS,{passive:true,capture:true});addEventListener('resize',onS);upd();}
- return ()=>{io.disconnect();timers.forEach(clearInterval);document.removeEventListener('scroll',onS,{capture:true});removeEventListener('resize',onS);all.forEach(a=>a.cancel());};
-}
-window.FlipMotion={attach};
-})();
-
-</script><script>
-window.FLIP_AULAS=[["Entendendo as dores e desejos do seu paciente para alcançar a verdadeira satisfação e se diferenciar no mercado","Limitações do caso e soluções clínico-protéticas para um planejamento estratégico","Mockup: quando fazer, quando não fazer","Planejamento e diretrizes para o laboratório de prótese"],["Gengiva saudável e harmônica: protocolo de reabilitação gengival e análises de casos com plástica gengival","Anatomia dental aplicada às reabilitações estéticas de alto valor","Efeitos ópticos cruciais em elementos protéticos para atingir naturalidade e harmonia do sorriso","Visagismo: análise do formato do rosto e personalidade na escolha do formato dos dentes da reabilitação do seu paciente"],["Dissilicato de lítio injetado e fresado: o famoso emax","Feldspato fresado: vale a pena?","Aplicação cerâmica sobre dissilicato (cut back)","Refratário puro: o queridinho dos sorrisos naturais","Zircônia e sua utilidade nas reabilitações estéticas sobre implantes e dentes","CAD/CAM: entenda a nova era digital da odontologia de uma vez por todas","Impressão em resina com carga cerâmica, novidade no mercado que tem conquistado os pacientes com menor poder aquisitivo","Ponto de atenção no dissilicato de lítio: formas de apresentação no mercado, translucidez e opacidade"],["Lentes sem preparo (técnica prepless): a mais procurada por pacientes A+","Preparo para laminado cerâmico puramente estético","Preparo minimamente invasivo: diferenças de preparo para uma lente fresada, injetada ou aplicada","Preparo ideal para coroa","Preparo ideal para coping de Zircônia"],["Ajustes interproximais: o primeiro passo para garantir a estética e saúde dos seus casos","Ajustes cervicais: crucial para periodontia e estética","Fundamentos anatômicos e técnicas para garantir o seu padrão estético com o seu protético","Ajuste estético no elemento protético cerâmico: diminuindo o tamanho do dente na técnica adequada","Técnicas e aspectos visuais para deixar o dente com aparência mais larga","Técnicas e aspectos visuais para deixar o dente com aparência mais final","Técnica de refinamento de canino, linhas, arestas área de espelho, área de sombra e bossa","Como tirar o aspecto de lente volumosa","Como trazer para as lentes os aspectos de naturalidade de um dente através das microtexturas e maquiagem no dissilicato","Prova de mockup: técnica com resina bisacrílica e mockup impresso"],["Tipos e cores de cimentos: análises de casos clínicos e materiais indicados","Técnica de cimentação padrão: fundamentos básicos de uma cimentação de excelência","Diferenciação de técnicas cimentação em diferentes materiais e técnicas protéticas","Substrato favorável e a utilização da técnica de cimentação de laminados extra finos","Cimentação em dente escurecido","Acabamento cervical pós cimentação","Acabamento interproximal pós cimentação","Ajuste oclusal: a garantia de durabilidade e resistência dos seus trabalhos","Técnica de cimentação sobre metal","Técnica de cimentação sobre Pino de fibra de vidro","Técnica de cimentação sobre coping","Técnica de cimentação em dentina","Técnica de cimentação de porcelana sobre porcelana"],["Anatomia estética e funcional de casos puramente estéticos a reabilitações com mordidas não padrão","Preparo de dentes da arcada inferior","Prova e ajustes estéticos","Ajuste oclusal"],["Dente escurecido: como mimetizar e alcançar um resultado impecável","Dentes vestibularizados","Corrigindo dentes desalinhados sem o uso da ortodontia","Substrato muito amarelado ou casos de tetraciclina","Corrigindo mordida classe 3 com porcelana","Corrigindo mordida profunda com porcelana","Corrigindo mordida cruzada com porcelana","Fechamento de diastemas","Implantes em áreas estéticas","Pinos metálicos na região de dentes anteriores","Retrabalho (remoção de porcelanas antigas com broca e lazer)"],["Planejamento reverso para iniciar o caso com maior precisão","Planejando e conciliando tratamentos multidisciplinares","Igualando coroas de porcelana sobre implante, pinos, e lentes para obtenção de um resultado harmônico","Aumento de DVO (dimensão vertical oclusal)","Ajuste de antagonista/adjacente em casos de movimentação dentária"]];
-
-</script><style>body{margin:0;background:#0c1f19}a{color:inherit}a:hover{opacity:.9}</style></helmet>
-<div ref="{{ root }}" style="container-type:inline-size;width:100%;overflow-x:clip;background:#0c1f19;color:#f5f1ea;font-family:'Karla',sans-serif;font-size:18px;line-height:1.7">
-<sc-if value="{{ wide }}" hint-placeholder-val="{{ true }}">
-<section data-screen-label="01 Hero" style="position:relative;min-height:clamp(640px,52cqw,820px);display:flex;align-items:center;overflow:hidden;background:#0c1f19">
-<div style="position:absolute;inset:0;overflow:hidden"><div data-reveal="zoom" data-dur="3200" style="position:absolute;inset:0"><img src="assets/bruna-geometrica.webp" alt="Bruna Veiga" style="width:100%;height:100%;object-fit:cover;object-position:100% 30%;display:block"></div></div>
-<div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(12,31,25,.92) 0%,rgba(12,31,25,.7) 38%,rgba(12,31,25,0) 62%)"></div>
-<div style="position:relative;width:min(46%,600px);padding:clamp(56px,6cqw,96px) 0 clamp(56px,6cqw,96px) clamp(24px,6cqw,96px);display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:24px">
-<div data-reveal="fade" style="display:flex;flex-direction:column;align-items:flex-start;gap:6px"><span style="font-size:13px;letter-spacing:.42em;padding-left:.42em;color:#a9b6af">FORMAÇÃO</span><span style="font:clamp(26px,3cqw,36px)/1.15 'Marcellus',serif;color:#d4b273">Lentes Impecáveis em Porcelana</span></div>
-<h1 data-reveal="up" data-delay="200" style="margin:0;font:700 clamp(34px,4.2cqw,56px)/1.12 'Fira Sans',sans-serif;letter-spacing:-.01em;text-wrap:pretty">Torne-se um dentista <span data-reveal="under" data-delay="900" style="background:linear-gradient(#d4b273,#d4b273) no-repeat 0 94%/100% 3px">reconhecido</span> e <span data-reveal="under" data-delay="1100" style="background:linear-gradient(#d4b273,#d4b273) no-repeat 0 94%/100% 3px">valorizado</span> por meio das lentes de porcelana.</h1>
-<div data-stagger="pop" data-gap="100" data-delay="500" style="display:flex;flex-wrap:wrap;justify-content:flex-start;gap:10px"><span style="padding:8px 18px;border-radius:999px;background:#f3e6c4;color:#6b4f22;font-size:15px;font-weight:700">+50 aulas</span><span style="padding:8px 18px;border-radius:999px;background:#f3e6c4;color:#6b4f22;font-size:15px;font-weight:700">Suporte por WhatsApp</span></div>
-<p data-reveal="up" data-delay="700" style="margin:0;max-width:600px;color:#c3cec8;text-wrap:pretty">Com Felipe e Bruna Veiga, dentista e ceramista da Nive: do briefing à cimentação, com o mesmo padrão que eles usam na clínica.</p>
-<div data-reveal="up" data-delay="850" style="width:100%;max-width:520px;display:flex;flex-direction:column;align-items:flex-start;gap:14px">
-<div style="width:100%;padding:7px;box-sizing:border-box;border-radius:12px;background:rgba(31,138,102,.22)"><a href="https://pay.kiwify.com.br/tjyBUo1" style="position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:64px;padding:0 16px;border-radius:8px;background:linear-gradient(90deg,#0f6b4f,#1a9068);color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.16em;line-height:1.3">QUERO ENTRAR PARA A FORMAÇÃO<span data-shine="" style="position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);pointer-events:none"></span></a></div>
-</div>
-</div>
+<section ref="{{ heroRef }}" style="background-color:#fff;background-image:radial-gradient(115% 85% at 80% 14%,rgba(18,148,111,.15) 0%,rgba(255,255,255,0) 62%);color:#0E3A38">
+  <div style="padding:calc(max(env(safe-area-inset-top),52px) + clamp(10px,1.6vh,18px)) 20px clamp(10px,1.6vh,16px);text-align:center">
+    <p style="margin:0;font-family:Karla,sans-serif;font-size:11px;letter-spacing:.34em;color:#7C8785">WORKSHOP</p>
+    <p style="margin:2px 0 0;font-family:Marcellus,serif;font-size:clamp(20px,2.4vw,28px);color:#A9803F">Lentes de Porcelana</p>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;align-items:stretch;gap:0">
+    <div style="flex:1 1 48%;min-width:min(100%,300px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:20px;padding:clamp(4px,1vh,18px) clamp(20px,4vw,48px) clamp(14px,3vw,52px);animation:rise .7s ease both">
+      <h1 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(29px,4vw,48px);line-height:1.14;letter-spacing:-.012em;margin:0;color:#0E3A38;text-wrap:pretty">Uma manhã para você construir um <span style="text-decoration:underline;text-decoration-color:#0B7A5E;text-decoration-thickness:2px;text-underline-offset:5px">plano de ação</span> e oferecer <span style="text-decoration:underline;text-decoration-color:#0B7A5E;text-decoration-thickness:2px;text-underline-offset:5px">lentes de porcelana</span> de alto padrão no seu consultório, mesmo sem experiência.</h1>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px">
+        <span style="background:#FBF1D2;color:#7A5A1C;border-radius:100px;padding:7px 12px;font-size:clamp(10px,2.4vw,12px);font-weight:600;white-space:nowrap">03/10</span>
+        <span style="background:#FBF1D2;color:#7A5A1C;border-radius:100px;padding:7px 12px;font-size:clamp(10px,2.4vw,12px);font-weight:600;white-space:nowrap">a partir das 08h</span>
+        <span style="background:#FBF1D2;color:#7A5A1C;border-radius:100px;padding:7px 12px;font-size:clamp(10px,2.4vw,12px);font-weight:600;white-space:nowrap">ao vivo pelo Zoom</span>
+      </div>
+      <h2 style="margin:0;max-width:44ch;font-family:Karla,sans-serif;font-weight:400;font-size:clamp(14.5px,1.5vw,17px);line-height:1.55;color:#45514F">Ao final das 4 horas, você saberá como conquistar pacientes de lentes de porcelana, planejar casos para o laboratório, executá-los e construir seu portfólio.</h2>
+      <div style="width:100%">
+        <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.1em;padding:19px 22px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
+        <div style="height:4px;background:#E2E8E7;border-radius:2px;margin:12px 0 8px"><div style="width:96%;height:4px;background:#0B7A5E;border-radius:2px"></div></div>
+        <p style="margin:0;font-size:clamp(10.5px,2.2vw,11.5px);line-height:1.5;text-align:center;color:#45514F"><strong style="color:#0E3A38">Lote 3 - 96% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 37</p>
+      </div>
+    </div>
+    <div style="flex:1 1 48%;min-width:min(100%,300px);display:flex;align-items:flex-start;justify-content:flex-end;overflow:hidden;margin-top:clamp(-34px,-3vw,0px)">
+      <img src="assets/bruna-geometrica.webp" alt="Bruna Veiga com o resultado no notebook" width="1509" height="1835" fetchpriority="high" decoding="async" style="display:block;width:100%;height:auto;max-height:min(88vh,940px);object-fit:contain;object-position:100% 100%;filter:drop-shadow(0 16px 34px rgba(14,58,56,.16))">
+    </div>
+  </div>
 </section>
+
+<section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px) clamp(20px,3vw,40px)">
+  <div style="max-width:760px;margin:0 auto">
+    <span class="kicker">O paradoxo dos primeiros casos</span>
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.16;letter-spacing:-.012em;margin:0 0 22px;color:#0E3A38;text-wrap:pretty">Existe um paradoxo que mantém muitos dentistas longe dos melhores casos da odontologia estética.</h2>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p class="lead" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Para conseguir mais pacientes de lentes de porcelana, você precisa <span class="mark">mostrar bons casos</span>.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Mas, para ter bons casos para mostrar, você precisa primeiro conseguir pacientes que <span class="mark">confiem em fazer porcelana com você</span>.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E é aí que muita gente fica presa.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Você vê outros profissionais executando casos de <span class="pop">R$ 10 mil</span>, <span class="pop">R$ 20 mil</span> ou mais. Sabe que existe demanda. Sabe o quanto a odontologia estética pode valorizar seu trabalho.</p>
+      <p class="turn" style="margin:0">Mas existe uma distância enorme entre conhecer as lentes de porcelana e realmente começar a trabalhar com elas.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Porque estética não admite improviso. O paciente não procura apenas dentes funcionais.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Ele procura um resultado <span class="pop">bonito</span>. <span class="pop">Natural</span>. <span class="pop">Harmônico</span>.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E, antes de colocar milhares de reais naquele tratamento, é natural que queira olhar para o seu trabalho e pensar:</p>
+    </div>
+    <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:26px 0">
+      <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(20px,2.4vw,26px);line-height:1.3;color:#0E3A38">“É isso que eu quero para mim.”</p>
+    </div>
+    <img src="assets/quero-isso.webp" alt="Resultado em lentes de porcelana" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 50%;border-radius:5px;margin:0 0 26px">
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(16px,1.7vw,18px);color:#A9803F">O problema?</p>
+      <p class="turn" style="margin:0">Se você ainda não construiu esses casos, não tem o que mostrar.</p>
+    </div>
+  </div>
+</section>
+
+<section ref="{{ loopRef }}" style="background:#EDF3F1;position:relative;min-height:240vh">
+  <div style="position:sticky;top:0;display:flex;align-items:flex-start;padding:clamp(24px,5vw,52px) clamp(20px,5vw,60px)">
+  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(18px,4vw,64px);align-items:center;width:100%">
+    <div>
+      <h3 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(24px,3.2vw,36px);line-height:1.18;letter-spacing:-.012em;margin:0 0 18px;color:#0E3A38">É o ciclo dos primeiros casos:</h3>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Enquanto ele não se rompe, a porcelana continua sendo uma possibilidade distante — e não uma frente real do seu consultório.</p>
+    </div>
+    <div style="position:relative;aspect-ratio:1/1;max-width:min(420px,62vh);width:100%;margin:0 auto">
+      <div style="position:absolute;inset:12%;border:1.5px dashed #0E3A38;border-radius:50%;opacity:.35"></div>
+      <svg viewBox="0 0 100 100" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none" aria-hidden="true">
+        <defs>
+          <marker id="lp-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+            <path d="M0 1.2 L9 5 L0 8.8 z" fill="#0B7A5E"></path>
+          </marker>
+        </defs>
+        <path d="M62 13 A39 39 0 0 1 87 38" fill="none" stroke="#0B7A5E" strokeWidth="1.6" strokeLinecap="round" markerEnd="url(#lp-arrow)" style="opacity:{{ a1 }};transition:opacity .45s ease"></path>
+        <path d="M87 62 A39 39 0 0 1 62 87" fill="none" stroke="#0B7A5E" strokeWidth="1.6" strokeLinecap="round" markerEnd="url(#lp-arrow)" style="opacity:{{ a2 }};transition:opacity .45s ease"></path>
+        <path d="M38 87 A39 39 0 0 1 13 62" fill="none" stroke="#0B7A5E" strokeWidth="1.6" strokeLinecap="round" markerEnd="url(#lp-arrow)" style="opacity:{{ a3 }};transition:opacity .45s ease"></path>
+        <path d="M13 38 A39 39 0 0 1 38 13" fill="none" stroke="#0B7A5E" strokeWidth="1.6" strokeLinecap="round" markerEnd="url(#lp-arrow)" style="opacity:{{ a4 }};transition:opacity .45s ease"></path>
+      </svg>
+      <div style="position:absolute;top:0;left:50%;transform:translateX(-50%);width:52%;background:#fff;border:1px solid #CBD4D3;border-radius:12px;padding:11px 14px;box-sizing:border-box;min-height:20%;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.3;box-shadow:0 2px 10px rgba(14,58,56,.08);opacity:{{ n1 }};transition:opacity .45s ease,filter .45s ease;filter:blur({{ n1b }}px)">Você não domina a porcelana porque ainda faz poucos casos.</div>
+      <div style="position:absolute;right:0;top:46%;transform:translateY(-50%);width:40%;background:#fff;border:1px solid #CBD4D3;border-radius:12px;padding:11px 14px;box-sizing:border-box;min-height:24%;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.3;box-shadow:0 2px 10px rgba(14,58,56,.08);opacity:{{ n2 }};transition:opacity .45s ease,filter .45s ease;filter:blur({{ n2b }}px)">Faz poucos casos porque não se sente totalmente seguro para oferecê-la.</div>
+      <div style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:52%;background:#fff;border:1px solid #CBD4D3;border-radius:12px;padding:11px 14px;box-sizing:border-box;min-height:20%;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.3;box-shadow:0 2px 10px rgba(14,58,56,.08);opacity:{{ n3 }};transition:opacity .45s ease,filter .45s ease;filter:blur({{ n3b }}px)">Não oferece porque não tem resultados suficientes para mostrar.</div>
+      <div style="position:absolute;left:0;top:46%;transform:translateY(-50%);width:40%;background:#fff;border:1px solid #CBD4D3;border-radius:12px;padding:11px 14px;box-sizing:border-box;min-height:24%;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.3;box-shadow:0 2px 10px rgba(14,58,56,.08);opacity:{{ n4 }};transition:opacity .45s ease,filter .45s ease;filter:blur({{ n4b }}px)">E não constrói resultados porque os pacientes ainda não chegam.</div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section style="background:#0E3A38;color:#F3F1EB;padding:clamp(44px,6vw,80px) clamp(20px,5vw,60px);text-align:center">
+  <p style="margin:0 auto 26px;max-width:720px;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(21px,2.8vw,32px);line-height:1.24;letter-spacing:-.012em">O <strong style="font-weight:600">Workshop Lentes de Porcelana</strong> foi criado para ajudar você a romper esse ciclo.</p>
+  <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
+  <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:rgba(243,241,235,.22);border-radius:3px"><div style="width:96%;height:5px;background:#3FC59B;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:rgba(243,241,235,.8)"><strong>Lote 3 - 96% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 37</p></div>
+</section>
+
+<section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:1100px;margin:0 auto">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,44px);line-height:1.12;letter-spacing:-.014em;margin:0 0 10px;color:#0E3A38;max-width:900px;text-wrap:pretty">Você não precisa ter dezenas de casos de porcelana para começar.</h2>
+    <p style="margin:0 0 30px;font-family:Marcellus,serif;font-size:clamp(19px,2.2vw,26px);color:#A9803F">Precisa saber construir os primeiros.</p>
+    <div style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+      <p class="lead" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">No <span class="mark">sábado, 3 de outubro</span>, das <strong>8h às 12h</strong>, eu vou construir com você um plano de ação para começar a ocupar seu espaço na odontologia estética com lentes de porcelana.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">E não será uma manhã para simplesmente assistir a mais uma aula.</p>
+      <p class="turn" style="margin:0">Você vai sair do Workshop com clareza sobre o que fazer a partir dali.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Vamos construir juntos o caminho para:</p>
+    </div>
+    <div style="margin-top:clamp(30px,5vw,54px);background:#EDF3F1;border-radius:20px;padding:clamp(18px,3.4vw,38px) clamp(18px,3.4vw,38px) clamp(24px,4vw,44px);display:block">
+      <div style="position:sticky;top:calc(clamp(64px,11vh,104px) + 0px);z-index:1;margin-bottom:clamp(110px,18vh,190px);background:#fff;border:1px solid #E1E9E7;border-radius:16px;box-shadow:0 -2px 0 rgba(255,255,255,.9),0 22px 44px -26px rgba(14,58,56,.45);padding:clamp(20px,3.2vw,32px);display:flex;gap:clamp(14px,2.2vw,24px);align-items:flex-start">
+        <p style="margin:0;flex:0 0 auto;font-family:Marcellus,serif;font-size:clamp(30px,3.6vw,44px);line-height:1;color:#0B7A5E">01</p>
+        <div style="min-width:0;flex:1 1 auto">
+          <p style="margin:0 0 10px;font-size:clamp(16px,1.8vw,18px);font-weight:700;line-height:1.3;color:#0E3A38;text-wrap:pretty">Encontrar oportunidades para seus primeiros casos</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Quem são os pacientes mais interessantes para começar, onde essas oportunidades normalmente estão e como criar uma condição estratégica para tirar seus primeiros casos do papel.</p>
+        </div>
+      </div>
+      <div style="position:sticky;top:calc(clamp(64px,11vh,104px) + 14px);z-index:2;margin-bottom:clamp(110px,18vh,190px);background:#fff;border:1px solid #E1E9E7;border-radius:16px;box-shadow:0 -2px 0 rgba(255,255,255,.9),0 22px 44px -26px rgba(14,58,56,.45);padding:clamp(20px,3.2vw,32px);display:flex;gap:clamp(14px,2.2vw,24px);align-items:flex-start">
+        <p style="margin:0;flex:0 0 auto;font-family:Marcellus,serif;font-size:clamp(30px,3.6vw,44px);line-height:1;color:#0B7A5E">02</p>
+        <div style="min-width:0;flex:1 1 auto">
+          <p style="margin:0 0 10px;font-size:clamp(16px,1.8vw,18px);font-weight:700;line-height:1.3;color:#0E3A38;text-wrap:pretty">Selecionar os casos certos</p>
+          <p style="margin:0 0 8px;font-size:14.5px;line-height:1.6;color:#45514F">Nem todo paciente é um bom primeiro caso.</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Você vai entender o que observar antes de aceitar um tratamento e por que a escolha correta pode facilitar — ou complicar muito — sua entrada na porcelana.</p>
+        </div>
+      </div>
+      <div style="position:sticky;top:calc(clamp(64px,11vh,104px) + 28px);z-index:3;margin-bottom:clamp(110px,18vh,190px);background:#fff;border:1px solid #E1E9E7;border-radius:16px;box-shadow:0 -2px 0 rgba(255,255,255,.9),0 22px 44px -26px rgba(14,58,56,.45);padding:clamp(20px,3.2vw,32px);display:flex;gap:clamp(14px,2.2vw,24px);align-items:flex-start">
+        <p style="margin:0;flex:0 0 auto;font-family:Marcellus,serif;font-size:clamp(30px,3.6vw,44px);line-height:1;color:#0B7A5E">03</p>
+        <div style="min-width:0;flex:1 1 auto">
+          <p style="margin:0 0 10px;font-size:clamp(16px,1.8vw,18px);font-weight:700;line-height:1.3;color:#0E3A38;text-wrap:pretty">Planejar pensando no resultado estético</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Vamos analisar casos reais e entender as decisões que existem por trás de um sorriso bonito: indicação, planejamento, proporção, formato, cor, naturalidade e os detalhes que separam um resultado comum de um resultado que gera desejo.</p>
+        </div>
+      </div>
+      <div style="position:sticky;top:calc(clamp(64px,11vh,104px) + 42px);z-index:4;margin-bottom:clamp(110px,18vh,190px);background:#fff;border:1px solid #E1E9E7;border-radius:16px;box-shadow:0 -2px 0 rgba(255,255,255,.9),0 22px 44px -26px rgba(14,58,56,.45);padding:clamp(20px,3.2vw,32px);display:flex;gap:clamp(14px,2.2vw,24px);align-items:flex-start">
+        <p style="margin:0;flex:0 0 auto;font-family:Marcellus,serif;font-size:clamp(30px,3.6vw,44px);line-height:1;color:#0B7A5E">04</p>
+        <div style="min-width:0;flex:1 1 auto">
+          <p style="margin:0 0 10px;font-size:clamp(16px,1.8vw,18px);font-weight:700;line-height:1.3;color:#0E3A38;text-wrap:pretty">Transformar seus primeiros atendimentos em portfólio</p>
+          <p style="margin:0 0 8px;font-size:14.5px;line-height:1.6;color:#45514F">Um bom caso não termina quando o paciente levanta da cadeira.</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Você vai entender como pensar seus primeiros casos também como a construção do ativo que dará mais segurança para os próximos pacientes escolherem você.</p>
+        </div>
+      </div>
+      <div style="position:sticky;top:calc(clamp(64px,11vh,104px) + 56px);z-index:5;margin-bottom:0;background:#fff;border:1px solid #E1E9E7;border-radius:16px;box-shadow:0 -2px 0 rgba(255,255,255,.9),0 22px 44px -26px rgba(14,58,56,.45);padding:clamp(20px,3.2vw,32px);display:flex;gap:clamp(14px,2.2vw,24px);align-items:flex-start">
+        <p style="margin:0;flex:0 0 auto;font-family:Marcellus,serif;font-size:clamp(30px,3.6vw,44px);line-height:1;color:#0B7A5E">05</p>
+        <div style="min-width:0;flex:1 1 auto">
+          <p style="margin:0 0 10px;font-size:clamp(16px,1.8vw,18px);font-weight:700;line-height:1.3;color:#0E3A38;text-wrap:pretty">Construir seu plano de ação</p>
+          <p style="margin:0 0 8px;font-size:14.5px;line-height:1.6;color:#45514F">Ao final da manhã, você não vai sair apenas com anotações.</p>
+          <p style="margin:0 0 10px;font-size:14.5px;line-height:1.6;color:#45514F">Vai sair com um plano para entender:</p>
+          <div style="display:flex;flex-direction:column;gap:6px;font-size:14.5px;line-height:1.45;color:#0E3A38;font-weight:600;border-left:2px solid #0B7A5E;padding-left:14px">
+            <span>quem buscar,</span>
+            <span>que tipo de caso procurar,</span>
+            <span>como estruturar sua oportunidade,</span>
+            <span>o que avaliar antes de começar</span>
+            <span>e como transformar os primeiros resultados em portfólio.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#EDF3F1;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:760px;margin:0 auto">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.14;letter-spacing:-.014em;margin:0 0 10px;color:#0E3A38;text-wrap:pretty">Seu primeiro caso não precisa ser o mais lucrativo da sua carreira.</h2>
+    <p style="margin:0 0 26px;font-family:Marcellus,serif;font-size:clamp(18px,2.1vw,24px);color:#A9803F">Precisa ser o caso que abre caminho para os próximos.</p>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Talvez hoje você pense:</p>
+    </div>
+    <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:20px 0">
+      <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(18px,2.1vw,23px);line-height:1.35;color:#0E3A38">“Mas como vou convencer alguém a fazer porcelana comigo se ainda tenho poucos casos?”</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">É justamente aqui que entra uma estratégia importante para quem está começando.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Imagine estruturar um primeiro caso de 10 lentes por <span class="pop">R$ 8.000</span> — um valor abaixo do que muitas clínicas populares já cobram.</p>
+      <p class="turn" style="margin:0">O objetivo desse primeiro atendimento não é maximizar sua margem.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">É construir ativos muito mais importantes para este momento:</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0">
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:16px;font-size:14.5px;line-height:1.4;font-weight:600;color:#0E3A38">experiência clínica;</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:16px;font-size:14.5px;line-height:1.4;font-weight:600;color:#0E3A38">um resultado real para documentar;</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:16px;font-size:14.5px;line-height:1.4;font-weight:600;color:#0E3A38">um paciente satisfeito;</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:16px;font-size:14.5px;line-height:1.4;font-weight:600;color:#0E3A38">um caso para apresentar aos próximos pacientes.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Mesmo em uma condição estrategicamente mais acessível, existe espaço para custear laboratório, investir no seu aperfeiçoamento e transformar aqueles dias de atendimento no começo de uma nova frente dentro da clínica.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Porque, à medida que sua técnica, segurança e portfólio crescem, muda também o tipo de caso que você consegue assumir — e o valor percebido pelo paciente.</p>
+    </div>
+    <p style="margin:26px 0 0;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(19px,2.4vw,26px);line-height:1.26;letter-spacing:-.012em;color:#0E3A38">Um único caso bem construído pode <span class="mark">continuar trabalhando por você</span> muito depois de o paciente sair do consultório.</p>
+  </div>
+</section>
+
+<div aria-hidden="true" style="position:relative;z-index:1;margin-top:clamp(-56px,-6vw,-24px);background:linear-gradient(180deg,#EDF3F1 0%,#EDF3F1 46%,#0D4C5A 46%,#0D4C5A 100%);line-height:0">
+  <img src="assets/arcada.webp" alt="" loading="lazy" decoding="async" width="1315" height="425" style="display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:50% 50%">
+</div>
+
+<section style="background:#0D4C5A;color:#F1F6F7;padding:clamp(40px,6vw,88px) 0 clamp(48px,7vw,96px)">
+  <div style="max-width:1100px;margin:0 auto;padding:0 clamp(20px,5vw,60px)">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.14;letter-spacing:-.014em;margin:0 0 22px;max-width:900px;text-wrap:pretty">Durante o Workshop, você vai analisar casos reais com quem vive a porcelana todos os dias.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(24px,4vw,52px)">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Essa será uma das partes mais importantes da manhã.</p>
+        <p class="turn turn-l" style="margin:0">Porque porcelana não se domina apenas decorando protocolos. É preciso desenvolver <span class="pop">olhar</span>.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Ao analisar diferentes situações clínicas, eu vou mostrar como enxergo cada caso e os detalhes que influenciam diretamente o resultado final:</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5">
+        <span>— Este é um bom caso para lente?</span>
+        <span>— Quantos elementos tratar?</span>
+        <span>— O que observar no sorriso antes de começar?</span>
+        <span>— Qual formato faz sentido para aquele paciente?</span>
+        <span>— Como evitar um resultado artificial?</span>
+        <span>— O que pode comprometer a estética?</span>
+        <span>— O que ela faria?</span>
+        <span>— E, tão importante quanto: <strong>o que ela não faria?</strong></span>
+      </div>
+    </div>
+  </div>
+  <div ref="{{ sliderRef }}" onMouseDown="{{ onDragStart }}" onTouchStart="{{ onDragStart }}" style="position:relative;height:clamp(300px,44vw,520px);margin-top:clamp(28px,4vw,48px);cursor:ew-resize;user-select:none;overflow:hidden;background:#08343D">
+    <img ref="{{ antesRef }}" src="assets/a-antes.webp" alt="antes" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
+    <div style="position:absolute;inset:0;clip-path:inset(0 {{ clipRight }}% 0 0);overflow:hidden;pointer-events:none">
+      <img ref="{{ depoisRef }}" src="assets/a-depois.webp" alt="depois" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% {{ focoY }}%;transform:scale(1.25)">
+    </div>
+    <div style="position:absolute;top:0;bottom:0;left:{{ splitPct }}%;width:2px;background:#F1F6F7;box-shadow:0 0 12px rgba(0,0,0,.4)"></div>
+    <div style="position:absolute;top:50%;left:{{ splitPct }}%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;background:#0D4C5A;color:#F1F6F7;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 16px rgba(0,0,0,.4)">⇄</div>
+    <span style="position:absolute;left:clamp(14px,3vw,32px);bottom:16px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;color:#F1F6F7;background:rgba(8,52,61,.7);padding:6px 10px;border-radius:2px">DEPOIS</span>
+    <span style="position:absolute;right:clamp(14px,3vw,32px);bottom:16px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;color:#F1F6F7;background:rgba(8,52,61,.7);padding:6px 10px;border-radius:2px">ANTES</span>
+  </div>
+  <div style="max-width:1100px;margin:0 auto;padding:16px clamp(20px,5vw,60px) 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+    <div style="display:flex;gap:9px">
+      <sc-for list="{{ casos }}" as="c" hint-placeholder-count="8">
+        <button onClick="{{ c.select }}" style="width:11px;height:11px;padding:0;border:none;border-radius:50%;background:{{ c.dot }};cursor:pointer"></button>
+      </sc-for>
+    </div>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.13em;color:rgba(241,246,247,.6)">ARRASTE O DIVISOR · TROQUE DE CASO ({{ casoAtual }}/8)</span>
+  </div>
+  <div style="max-width:1100px;margin:0 auto;padding:clamp(24px,4vw,40px) clamp(20px,5vw,60px) 0;display:flex;flex-direction:column;gap:14px">
+    <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">Você vai começar a perceber detalhes que antes poderiam passar despercebidos.</p>
+    <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(241,246,247,.85)">E entender por que dois casos tecnicamente semelhantes podem terminar com resultados estéticos completamente diferentes.</p>
+  </div>
+</section>
+
+<section style="position:relative;color:#F3F1EB;padding:clamp(56px,8vw,110px) clamp(20px,5vw,60px);background-image:linear-gradient(0deg,rgba(11,45,43,.96) 0%,rgba(11,45,43,.88) 52%,rgba(11,45,43,.35) 100%),url('assets/c-depois.webp');background-size:cover;background-position:center 18%">
+  <div style="max-width:760px;margin:0 auto">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,42px);line-height:1.14;letter-spacing:-.014em;margin:0 0 24px">O paciente compra estética com os olhos.</h2>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:clamp(16px,1.8vw,19px);line-height:1.7;color:rgba(243,241,235,.9)">Diploma importa. Formação importa. Experiência importa.</p>
+      <p class="turn turn-l" style="margin:0">Mas, diante de um tratamento estético de alto investimento, existe uma pergunta que pesa muito:</p>
+    </div>
+    <p style="margin:24px 0;font-family:Marcellus,serif;font-size:clamp(21px,2.8vw,32px);line-height:1.28;color:#D3AE7C">“Eu gosto do que esse profissional consegue entregar?”</p>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Por isso, construir um portfólio não é apenas uma questão de marketing.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">É consequência de desenvolver técnica, repertório e olhar suficientes para produzir resultados que mereçam ser mostrados.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">E esse é o objetivo maior do Workshop:</p>
+    </div>
+    <p style="margin:22px 0 0;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(19px,2.4vw,27px);line-height:1.26;letter-spacing:-.012em">ajudar você a começar a construir os casos que um dia farão o paciente chegar ao seu consultório já querendo fazer porcelana com você.</p>
+  </div>
+</section>
+
+<section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:1100px;margin:0 auto">
+    <span class="kicker">Para quem é</span>
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.14;letter-spacing:-.014em;margin:0 0 22px;color:#0E3A38">Para quem é o Workshop Lentes de Porcelana?</h2>
+    <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Este Workshop é para o dentista que:</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;align-items:start;margin-top:24px">
+      <div style="background:#fff;border:1.5px solid #0E3A38;border-radius:5px;padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;gap:14px">
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>já atua clinicamente e quer incorporar procedimentos de maior valor ao consultório;</p>
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>se interessa por odontologia estética, mas ainda realiza poucos casos de porcelana;</p>
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>sente que poderia oferecer lentes para mais pacientes, mas ainda não tem segurança técnica ou portfólio suficientes;</p>
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>quer entender melhor como planejar casos estéticos de alto nível;</p>
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>quer construir um portfólio que aumente a confiança do paciente em seu trabalho;</p>
+        <p style="margin:0;font-size:15px;line-height:1.5;display:flex;gap:12px;color:#14201F"><span style="color:#0B7A5E;font-weight:700">✓</span>procura crescer financeiramente através de uma odontologia melhor executada — e não de promessas fáceis de faturamento.</p>
+      </div>
+      <div style="background:#EDF3F1;border:1px solid #DCE3E2;border-radius:5px;padding:clamp(22px,3vw,34px)">
+        <p style="margin:0 0 14px;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(17px,2vw,21px);line-height:1.28;color:#0E3A38">Este Workshop NÃO foi pensado para especialistas em prótese que já executam porcelana em alto nível.</p>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Também não é uma formação completa em lentes.</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Em quatro horas, ninguém se torna especialista em porcelana.</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">O objetivo é outro:</p>
+          <p style="margin:0;font-size:14.5px;line-height:1.6;color:#14201F"><strong>mostrar o caminho para você começar de forma muito mais inteligente e enxergar tudo o que precisa dominar para transformar porcelana em uma frente real do seu consultório.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#0E3A38;color:#F3F1EB;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:clamp(28px,5vw,60px);align-items:start">
+    <div>
+      <img src="assets/bruna-oval.webp" alt="Bruna Veiga" loading="lazy" decoding="async" width="1537" height="2305" style="display:block;width:100%;height:auto;object-fit:contain">
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px">
+        <img src="assets/nive.webp" alt="Recepção da Nive Odontologia" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:0% 50%;border-radius:4px">
+        <img src="assets/atendimento.webp" alt="Bruna Veiga em atendimento" loading="lazy" decoding="async" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 40%;border-radius:4px">
+      </div>
+    </div>
+    <div>
+      <p style="margin:0 0 6px;font-family:Karla,sans-serif;font-size:12px;letter-spacing:.2em;color:rgba(211,174,124,.9)">QUEM VAI CONDUZIR O WORKSHOP</p>
+      <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(28px,3.6vw,44px);letter-spacing:-.014em;margin:0 0 10px">Bruna Veiga</h2>
+      <p style="margin:0 0 22px;font-size:17px;line-height:1.5;font-weight:700;color:#D3AE7C">Sócia-fundadora da Nive Odontologia e referência em estética e porcelana.</p>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <p class="lead lead-l" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Bruna Veiga está à frente da <strong>Nive Odontologia</strong> — clínica e laboratório que, ao lado de Felipe Veiga, se tornaram referência em reabilitação estética e lentes de porcelana, recebendo pacientes de todo o Brasil e do exterior.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Dentro da Nive, ela desenvolveu uma visão apurada sobre estética, acabamento e resultado final — os detalhes que fazem uma lente deixar de parecer <span class="pop">artificial</span> e passar a se integrar de forma natural ao sorriso.</p>
+        <p class="turn turn-l" style="margin:0">Hoje, a operação produz centenas de lentes de porcelana todos os meses.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Mas essa história não começou pronta. Antes desse nível de refinamento, Bruna viveu problemas que muitos profissionais enfrentam ao entrar na porcelana:</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;margin:18px 0;padding-left:18px;border-left:2px solid rgba(211,174,124,.6);font-size:15px;line-height:1.5;color:rgba(243,241,235,.8)">
+        <span>peças que não correspondiam ao planejamento;</span>
+        <span>resultados artificiais;</span>
+        <span>retrabalhos;</span>
+        <span>ajustes;</span>
+        <span>frustração entre o que havia sido planejado e o que efetivamente chegava para instalação.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Foi essa insatisfação que a fez mergulhar no universo da cerâmica e desenvolver um olhar próprio sobre estética, naturalidade e previsibilidade — o mesmo olhar que será <span class="pop">parte central</span> do Workshop.</p>
+        <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Durante a manhã, ela vai mostrar como analisa casos, o que observa antes de começar, quais decisões influenciam o resultado e quais erros fazem uma lente perder naturalidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:820px;margin:0 auto;background:#F7F1E3;border:1px solid #E4D8BE;border-radius:4px;box-shadow:0 26px 50px -34px rgba(14,58,56,.5);padding:clamp(26px,4.6vw,52px)">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(24px,3.2vw,36px);line-height:1.14;letter-spacing:-.014em;margin:0 0 6px;color:#0E3A38;text-wrap:pretty">O que vai acontecer no sábado, 3 de outubro</h2>
+    <div>
+      <div style="padding:20px 0;border-bottom:1px dashed #DCCFB2">
+        <p style="margin:0 0 8px;font-size:17px;font-weight:700;color:#0E3A38"><span style="font-family:Marcellus,serif;color:#0B7A5E;margin-right:10px">08h</span>O caminho dos primeiros casos</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Por que tantos dentistas ficam presos entre “ainda não sei fazer” e “ainda não tenho pacientes” — e como começar a quebrar esse ciclo.</p>
+      </div>
+      <div style="padding:20px 0;border-bottom:1px dashed #DCCFB2">
+        <p style="margin:0 0 8px;font-size:17px;font-weight:700;color:#0E3A38"><span style="font-family:Marcellus,serif;color:#0B7A5E;margin-right:10px">09h</span>Construindo seus primeiros casos</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Como encontrar oportunidades, selecionar pacientes e estruturar uma condição inteligente para começar a construir experiência e portfólio.</p>
+      </div>
+      <div style="padding:20px 0;border-bottom:1px dashed #DCCFB2">
+        <p style="margin:0 0 8px;font-size:17px;font-weight:700;color:#0E3A38"><span style="font-family:Marcellus,serif;color:#0B7A5E;margin-right:10px">10h</span>Análise de casos reais</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Indicação, planejamento, estética e decisões que influenciam o resultado final, comentadas por <strong>mim</strong>.</p>
+      </div>
+      <div style="padding:20px 0;border-bottom:1px dashed #DCCFB2">
+        <p style="margin:0 0 8px;font-size:17px;font-weight:700;color:#0E3A38"><span style="font-family:Marcellus,serif;color:#0B7A5E;margin-right:10px">11h</span>Seu plano de ação</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.6;color:#45514F">Como transformar os primeiros casos em portfólio e organizar os próximos passos para começar a trabalhar com lentes de porcelana.</p>
+      </div>
+      <p style="margin:18px 0 0;font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:.06em;color:#0E3A38">Encerramento previsto: 12h.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background:#EDF3F1;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:760px;margin:0 auto">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(24px,3.2vw,38px);line-height:1.16;letter-spacing:-.014em;margin:0 0 18px;color:#0E3A38;text-wrap:pretty">O resultado que queremos ao final da manhã é simples:</h2>
+    <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Que você consiga olhar para sua realidade e dizer:</p>
+    <div style="border-left:3px solid #C79A5B;padding:4px 0 4px 20px;margin:20px 0 26px">
+      <p style="margin:0;font-family:Marcellus,serif;font-size:clamp(20px,2.5vw,28px);line-height:1.3;color:#0E3A38">“Agora eu sei qual é o meu próximo passo para começar a construir meus casos de porcelana.”</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Em vez de terminar a manhã com dezenas de páginas de anotação que nunca sairão do papel…</p>
+      <p class="turn" style="margin:0">Você terá uma direção.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:22px 0 30px">
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">Quem procurar.</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">Que tipo de caso buscar.</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">O que avaliar.</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">Como pensar o planejamento.</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">O que precisa dominar.</div>
+      <div style="background:#fff;border:1px solid #DCE3E2;border-radius:4px;padding:14px 16px;font-size:14.5px;font-weight:600;color:#0E3A38">E como transformar os primeiros resultados em argumento para conquistar os próximos.</div>
+    </div>
+    <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>SIM, QUERO PARTICIPAR</a>
+    <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:#E2E8E7;border-radius:3px"><div style="width:96%;height:5px;background:#0B7A5E;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:#45514F"><strong>Lote 3 - 96% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 37</p></div>
+  </div>
+</section>
+
+<section id="ingresso" style="background:#0D4C5A;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,42px);text-align:center;letter-spacing:-.014em;color:#F1F6F7;margin:0 0 clamp(26px,4vw,44px)">Garanta seu ingresso</h2>
+  <div style="max-width:520px;margin:0 auto;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.25)">
+    <p style="margin:0;background:#0E3A38;color:#F3F1EB;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.26em;padding:14px">LOTE 3</p>
+    <div style="padding:clamp(24px,4vw,38px)">
+      <p style="margin:0 0 4px;text-align:center;font-family:Karla,sans-serif;font-size:11px;letter-spacing:.3em;color:#7C8785">WORKSHOP</p>
+      <p style="margin:0 0 18px;text-align:center;font-family:Marcellus,serif;font-size:clamp(22px,3vw,27px);color:#0E3A38">Lentes de Porcelana</p>
+      <div style="display:flex;flex-direction:column;gap:4px;text-align:center;font-size:14.5px;font-weight:600;color:#0E3A38;margin-bottom:24px">
+        <span>Sábado, 3 de outubro</span>
+        <span>Das 8h às 12h</span>
+        <span>Ao vivo e online</span>
+      </div>
+      <p style="margin:0 0 2px;text-align:center;font-size:14px;color:#7C8785">De: <s>R$ 97</s></p>
+      <p style="margin:0 0 2px;text-align:center;font-size:14px;color:#45514F">Por apenas:</p>
+      <p style="margin:0 0 24px;text-align:center;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:600;font-size:clamp(30px,5vw,42px);letter-spacing:-.02em;color:#0B7A5E;white-space:nowrap">R$ 37</p>
+      <a href="https://pay.kiwify.com.br/PYf8ZIv?coupon=TERCEIROLOTE" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO GARANTIR MEU INGRESSO</a>
+      <div style="height:5px;background:#E2E8E7;border-radius:3px;margin:18px 0 10px"><div style="width:96%;height:5px;background:#0B7A5E;border-radius:3px"></div></div>
+      <p style="margin:0 0 12px;text-align:center;font-size:13px;font-weight:700;color:#0E3A38">Lote 3 - 96% dos ingressos vendidos — de <s style="font-weight:400;color:#7C8785">R$ 97</s> por R$ 37</p>
+      <p style="margin:0;text-align:center;font-size:12px;line-height:1.55;color:#7C8785">Assim que os ingressos deste lote forem vendidos, o Lote 3 será encerrado e o próximo lote terá um novo valor.</p>
+    </div>
+  </div>
+</section>
+
+
+<section style="background:#EDF3F1;padding:clamp(52px,8vw,110px) clamp(20px,5vw,60px)">
+  <div style="max-width:760px;margin:0 auto">
+    <span class="kicker">Por que R$ 37?</span>
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);line-height:1.16;letter-spacing:-.012em;margin:0 0 22px;color:#0E3A38;text-wrap:pretty">Mas por que tão barato?</h2>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <p class="lead" style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">O Workshop Lentes de Porcelana é um evento <span class="mark">100% patrocinado</span> e organizado pela <strong style="color:#0E3A38">Formação Lentes Impecáveis em Porcelana — FLIP</strong>.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">A FLIP nasceu para ajudar dentistas a iniciarem ou elevarem o nível dos seus trabalhos com lentes de porcelana — dominando desde o planejamento dos casos até a execução e a construção de resultados de alto padrão.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Sabemos que nada disso é ensinado nas faculdades, e uma das formas de aproximar mais dentistas desse conhecimento é promovendo eventos como este, com um valor de ingresso muito abaixo do que normalmente seria cobrado por uma manhã de conteúdo prático.</p>
+      <p class="turn" style="margin:0">Durante o Workshop, 90% do tempo será dedicado ao conteúdo e à construção do seu plano de ação.</p>
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:#45514F">Ao final, para quem quiser continuar se aprofundando, apresentaremos a Formação Lentes Impecáveis em Porcelana — FLIP e liberaremos uma <span class="mark">condição especial</span> para os participantes do evento.</p>
+    </div>
+  </div>
+</section>
+
+
+<section style="background:#fff;padding:0 clamp(20px,5vw,60px) clamp(52px,8vw,110px)">
+  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:clamp(24px,5vw,60px);align-items:start">
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(25px,3.4vw,40px);letter-spacing:-.014em;margin:0;color:#0E3A38">Perguntas frequentes</h2>
+    <div>
+      <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="9">
+        <div style="border-bottom:1px solid #DCE3E2">
+          <button onClick="{{ f.toggle }}" style="width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:none;padding:18px 0;text-align:left;font-family:Karla,sans-serif;font-size:15.5px;font-weight:700;color:#0E3A38;cursor:pointer">{{ f.q }}<span style="font-size:18px;color:#0B7A5E;font-weight:400">{{ f.sign }}</span></button>
+          <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:0 0 20px;max-width:620px;display:flex;flex-direction:column;gap:10px">
+              <sc-for list="{{ f.paras }}" as="pa" hint-placeholder-count="2">
+                <p style="margin:0;font-size:14.5px;line-height:1.62;color:#45514F">{{ pa.t }}</p>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section style="background:#0B2D2B;color:#F3F1EB;padding:clamp(48px,7vw,90px) clamp(20px,5vw,60px)">
+  <div style="max-width:960px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
+      <img src="assets/caso-1.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+      <img src="assets/caso-2.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+      <img src="assets/caso-3.webp" alt="Antes e depois em lentes de porcelana" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px">
+    </div>
+    <h2 style="font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(26px,3.6vw,42px);line-height:1.14;letter-spacing:-.014em;text-align:center;margin:clamp(26px,4vw,44px) 0 18px;text-wrap:pretty">Existem pacientes dispostos a investir em um sorriso melhor.</h2>
+    <p style="margin:0 0 10px;text-align:center;font-size:16px;color:rgba(243,241,235,.8)">A questão é:</p>
+    <p style="margin:0 0 26px;text-align:center;font-family:Marcellus,serif;font-size:clamp(20px,2.6vw,30px);line-height:1.28;color:#D3AE7C">quando eles chegarem até você, o seu trabalho estará pronto para ser escolhido?</p>
+    <div style="max-width:640px;margin:0 auto 26px;display:flex;flex-direction:column;gap:12px;text-align:center">
+      <p style="margin:0;font-size:clamp(15px,1.6vw,17px);line-height:1.62;color:rgba(243,241,235,.85)">Todo profissional que hoje possui dezenas ou centenas de casos para mostrar precisou começar pelos primeiros.</p>
+      <p class="turn turn-l" style="margin:0">No sábado, 3 de outubro, eu quero ajudar você a construir esse começo.</p>
+    </div>
+    <div style="text-align:center;margin-bottom:26px;display:flex;flex-direction:column;gap:4px;font-size:14.5px;font-weight:700">
+      <span>Workshop Lentes de Porcelana</span>
+      <span style="color:#D3AE7C">3 de outubro | 8h às 12h | Ao vivo e online</span>
+    </div>
+    <p style="margin:0 0 18px;text-align:center;font-family:'Fira Sans','Helvetica Neue',sans-serif;font-weight:500;font-size:clamp(18px,2.2vw,24px);letter-spacing:-.012em">Garanta agora seu ingresso no Lote 3.</p>
+    <a href="#ingresso" class="cta-pulse" style="position:relative;overflow:hidden;display:block;max-width:520px;margin:0 auto;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;text-align:center;font-weight:700;font-size:15px;letter-spacing:.09em;padding:20px;border-radius:4px;animation:pulseCta 2.6s ease-out infinite;transition:transform .2s,filter .2s" style-hover="filter:saturate(1.15) brightness(1.06);transform:translateY(-2px)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>QUERO PARTICIPAR DO WORKSHOP</a>
+    <div style="max-width:520px;margin:16px auto 0"><div style="height:5px;background:rgba(243,241,235,.22);border-radius:3px"><div style="width:96%;height:5px;background:#3FC59B;border-radius:3px"></div></div><p style="margin:9px 0 0;text-align:center;font-size:12.5px;color:rgba(243,241,235,.8)"><strong>Lote 3 - 96% dos ingressos vendidos</strong> — de <s>R$ 97</s> por R$ 37</p></div>
+  </div>
+</section>
+
+<sc-if value="{{ showSticky }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid #DCE3E2;padding:12px clamp(14px,4vw,32px);display:flex;align-items:center;justify-content:center;gap:clamp(12px,3vw,28px);flex-wrap:wrap">
+    <p style="margin:0;font-size:12.5px;line-height:1.4;color:#45514F"><strong style="color:#0E3A38">Lote 3 - 96% vendidos</strong> · <s>R$ 97</s> por R$ 37</p>
+    <a href="#ingresso" style="position:relative;overflow:hidden;background:linear-gradient(96deg,#0B7A5E 0%,#12946F 100%);color:#fff;font-weight:700;font-size:13px;letter-spacing:.08em;padding:14px 26px;border-radius:4px;transition:filter .2s" style-hover="filter:saturate(1.15) brightness(1.06)"><span style="position:absolute;top:0;bottom:0;left:0;width:38%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.5) 50%,rgba(255,255,255,0) 100%);animation:shine 3.4s ease-in-out infinite"></span>GARANTIR INGRESSO</a>
+  </div>
 </sc-if>
-<sc-if value="{{ narrow }}" hint-placeholder-val="{{ false }}">
-<section data-screen-label="01 Hero" style="position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;background:#0c1f19">
-<div style="position:relative;width:100%;height:clamp(420px,108cqw,580px);overflow:hidden"><div data-reveal="zoom" data-dur="3200" style="position:absolute;inset:0"><img src="assets/bruna-geometrica.webp" alt="Bruna Veiga" style="width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block"></div><div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(12,31,25,0) 52%,rgba(12,31,25,.8) 80%,#0c1f19 98%)"></div></div>
-<div style="position:relative;max-width:640px;margin-top:-90px;padding:0 24px 48px;display:flex;flex-direction:column;align-items:center;gap:18px">
-<div data-reveal="fade" style="display:flex;flex-direction:column;align-items:center;gap:6px"><span style="font-size:13px;letter-spacing:.42em;padding-left:.42em;color:#a9b6af">FORMAÇÃO</span><span style="font:clamp(26px,3cqw,36px)/1.15 'Marcellus',serif;color:#d4b273">Lentes Impecáveis em Porcelana</span></div>
-<h1 data-reveal="up" data-delay="200" style="margin:0;font:700 clamp(34px,5.4cqw,64px)/1.12 'Fira Sans',sans-serif;letter-spacing:-.01em;text-wrap:balance">Torne-se um dentista <span data-reveal="under" data-delay="900" style="background:linear-gradient(#d4b273,#d4b273) no-repeat 0 94%/100% 3px">reconhecido</span> e <span data-reveal="under" data-delay="1100" style="background:linear-gradient(#d4b273,#d4b273) no-repeat 0 94%/100% 3px">valorizado</span> por meio das lentes de porcelana.</h1>
+</div>
 
-
-<div data-reveal="up" data-delay="850" style="width:100%;max-width:580px;display:flex;flex-direction:column;align-items:center;gap:14px">
-<div style="width:100%;padding:7px;box-sizing:border-box;border-radius:12px;background:rgba(31,138,102,.22)"><a href="https://pay.kiwify.com.br/tjyBUo1" style="position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:64px;padding:0 16px;border-radius:8px;background:linear-gradient(90deg,#0f6b4f,#1a9068);color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.16em;line-height:1.3">QUERO ENTRAR PARA A FORMAÇÃO<span data-shine="" style="position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);pointer-events:none"></span></a></div>
-<div data-stagger="pop" data-gap="100" data-delay="1100" style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px"><span style="padding:8px 18px;border-radius:999px;background:rgba(243,230,196,.16);color:#e9d9b0;font-size:14px;font-weight:600">+50 aulas</span><span style="padding:8px 18px;border-radius:999px;background:rgba(243,230,196,.16);color:#e9d9b0;font-size:14px;font-weight:600">Suporte por WhatsApp</span></div>
-</div>
-</div>
-</section>
-</sc-if>
-<section data-screen-label="02 Problema" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px) calc(100cqw * .17 + 56px);background:#fbf9f5;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:28px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Você faz o preparo. O laboratório faz a peça.</h2>
-<p data-reveal="up" data-delay="150" style="margin:-8px 0 0;font:clamp(26px,3cqw,36px)/1.25 'Marcellus',serif;color:#9a7536">Quando ela chega, não é o que você planejou.</p>
-<div data-stagger="up" data-gap="160" style="display:flex;flex-direction:column;gap:22px;margin-top:8px">
-<div style="display:flex;flex-direction:column;gap:2px"><span style="font:clamp(30px,3.2cqw,40px)/1.1 'Marcellus',serif;color:#9a7536">Cor</span><span style="color:#4a5550">que não esconde totalmente aquele dente escurecido</span></div>
-<div style="display:flex;flex-direction:column;gap:2px"><span style="font:clamp(30px,3.2cqw,40px)/1.1 'Marcellus',serif;color:#9a7536">Volume</span><span style="color:#4a5550">muito maior do que o planejado</span></div>
-<div style="display:flex;flex-direction:column;gap:2px"><span style="font:clamp(30px,3.2cqw,40px)/1.1 'Marcellus',serif;color:#9a7536">Formato</span><span style="color:#4a5550">que não parece bem de dente natural</span></div>
-</div>
-<p data-reveal="up" style="margin:8px 0 0;font:600 clamp(21px,2.2cqw,26px)/1.35 'Fira Sans',sans-serif">Você sabe que está ruim, mas <span data-reveal="mark" data-delay="400" style="background:linear-gradient(transparent 12%,#f6dd9a 12%,#f6dd9a 90%,transparent 90%) no-repeat 0 0/100% 100%;padding:0 3px">não sabia dizer o porquê</span>...</p>
-<div data-reveal="left" data-delay="200" style="padding-left:24px;border-left:4px solid #b8914f;font:clamp(40px,5cqw,60px)/1.1 'Marcellus',serif">Até agora.</div>
-</div>
-</section>
-<div style="position:relative;z-index:2;height:0;display:flex;align-items:flex-start;justify-content:center;pointer-events:none"><div style="width:100%;transform:translateY(-50%)"><div data-reveal="up" data-dur="1600" style="width:100%"><img src="assets/arcada.webp" alt="Arcada em porcelana" style="width:100%;display:block"></div></div></div>
-<section data-screen-label="03 Resultados" style="padding:calc(100cqw * .17 + 48px) 0 clamp(64px,8cqw,112px);background:#0c1f19">
-<div style="max-width:820px;margin:0 auto;padding:0 clamp(24px,6cqw,96px);display:flex;flex-direction:column;gap:14px">
-<span data-reveal="fade" style="font-size:13px;font-weight:700;letter-spacing:.32em;color:#d4b273">RESULTADOS</span>
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">O padrão que você vai aprender, <span style="font-family:'Marcellus',serif;font-weight:400;color:#d4b273">caso a caso.</span></h2>
-</div>
-<div style="max-width:1000px;margin:clamp(28px,4cqw,48px) auto 0">
-<div data-reveal="up" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;background:#132a22">
-<div data-ba="0" style="position:absolute;inset:0;user-select:none">
-<img src="{{ cur.after }}" alt="depois" draggable="false" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
-<img src="{{ cur.before }}" alt="antes" draggable="false" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;clip-path:{{ clip }}">
-<div sc-camel-on-pointer-down="{{ down }}" sc-camel-on-pointer-move="{{ move }}" sc-camel-on-pointer-up="{{ up }}" style="position:absolute;top:0;bottom:0;left:{{ pos }};width:64px;margin-left:-32px;cursor:ew-resize;touch-action:none;display:flex;justify-content:center"><div style="width:2px;height:100%;background:#fff"></div><div style="position:absolute;top:50%;left:50%;width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:#0c1f19;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px">⇄</div></div>
-</div>
-</div>
-</div>
-<div style="max-width:820px;margin:0 auto;padding:18px clamp(24px,6cqw,96px) 0;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
-<sc-for list="{{ dots }}" as="d" hint-placeholder-count="7"><button sc-camel-on-click="{{ d.go }}" aria-label="{{ d.label }}" style="all:unset;cursor:pointer;width:16px;height:16px;border-radius:50%;background:{{ d.bg }}"></button></sc-for>
-</div>
-<p data-reveal="up" style="margin:14px 0 0;display:flex;align-items:center;gap:18px;color:#c3cec8"><span data-count="324" data-prefix="+" style="flex:none;font:clamp(56px,6cqw,76px)/1 'Marcellus',serif;color:#d4b273">+324</span><span>profissionais treinados por nós atendem no Brasil todo <strong style="color:#f5f1ea">com o mesmo padrão de qualidade</strong>.</span></p>
-<div data-reveal="up" style="margin-top:8px;border-radius:16px;overflow:hidden;background:#f7f7f7"><img src="assets/caso-1.webp" alt="Caso clínico antes e depois" style="width:100%;display:block"></div>
-</div>
-</section>
-<section data-screen-label="04 Para quem" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#efeae1;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:28px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Esteja onde estiver na porcelana</h2>
-<div data-reveal="up" style="padding:clamp(24px,3cqw,36px);background:#fff;border-radius:16px;box-shadow:0 20px 40px rgba(12,31,25,.08);display:flex;flex-direction:column;gap:10px"><span style="font:clamp(22px,2.4cqw,28px)/1.2 'Marcellus',serif;color:#9a7536">Se você ainda não faz</span><p style="margin:0;color:#4a5550">Comece com segurança: saiba quais casos aceitar, como planejar e o que pedir ao laboratório <span data-reveal="mark" data-delay="500" style="background:linear-gradient(transparent 12%,#f6dd9a 12%,#f6dd9a 90%,transparent 90%) no-repeat 0 0/100% 100%;padding:0 3px;color:#0c1f19">desde o primeiro paciente</span>.</p></div>
-<div data-reveal="up" data-delay="150" style="padding:clamp(24px,3cqw,36px);background:#0c1f19;color:#f5f1ea;border-radius:16px;display:flex;flex-direction:column;gap:10px"><span style="font:clamp(22px,2.4cqw,28px)/1.2 'Marcellus',serif;color:#d4b273">Se você já faz</span><p style="margin:0;color:#c3cec8">Eleve o padrão: resultados mais naturais, menos retrabalho e domínio dos casos complexos, <strong style="color:#f5f1ea">que são os de maior valor</strong>.</p></div>
-</div>
-</section>
-<section data-screen-label="05 Professores" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:24px">
-<div style="position:relative">
-<div style="position:absolute;inset:4% 0 0;background:radial-gradient(closest-side,rgba(212,178,115,.26),transparent 100%);filter:blur(12px)"></div>
-<div data-reveal="up" data-dur="1600" style="position:relative;aspect-ratio:4/5;max-height:760px;margin:0 auto;overflow:hidden"><img src="assets/bruna-oval.webp" alt="Bruna Veiga" style="width:100%;height:100%;object-fit:cover;object-position:50% 10%;display:block;-webkit-mask-image:radial-gradient(ellipse 64% 72% at 50% 42%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 64% 72% at 50% 42%,#000 55%,transparent 100%)"></div>
-</div>
-<div data-reveal="wipe" style="aspect-ratio:16/10;overflow:hidden;border-radius:6px"><div data-reveal="zoom" style="width:100%;height:100%"><img src="assets/nive.webp" alt="Recepção da Nive Odontologia" style="width:100%;height:100%;object-fit:cover;display:block"></div></div>
-<span data-reveal="fade" style="font-size:13px;letter-spacing:.32em;color:#d4b273">QUEM CONDUZ A FORMAÇÃO</span>
-<h2 data-reveal="up" style="margin:-12px 0 0;font:700 clamp(36px,4.6cqw,56px)/1.08 'Fira Sans',sans-serif">Felipe e Bruna Veiga</h2>
-<p data-reveal="up" data-delay="100" style="margin:-8px 0 0;font-weight:700;font-size:clamp(19px,2cqw,23px);line-height:1.5;color:#d4b273">Fundadores da Nive Odontologia: clínica e laboratório sob o mesmo teto.</p>
-<p data-reveal="up" data-delay="200" style="margin:0;font-size:clamp(19px,2cqw,22px);color:#e3e9e5"><strong style="color:#fff">Felipe Veiga</strong>, cirurgião-dentista, e <strong style="color:#fff">Bruna Veiga</strong>, ceramista. Na formação você aprende os <span style="font:1.25em 'Marcellus',serif;color:#d4b273">dois lados</span> da mesma lente.</p>
-</div>
-</section>
-<section data-screen-label="06 Conteúdo" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#fbf9f5;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">O conteúdo</h2>
-<p data-reveal="up" data-delay="100" style="margin:-10px 0 0;font:clamp(22px,2.4cqw,28px)/1.3 'Marcellus',serif;color:#9a7536">9 módulos, +50 aulas e certificado de conclusão.</p>
-<div style="margin-top:12px;padding:clamp(16px,2.4cqw,32px);background:#efeae1;border-radius:24px;display:flex;flex-direction:column;gap:14px">
-<sc-for list="{{ modules }}" as="m" hint-placeholder-count="9">
-<div style="position:{{ m.pos }};top:{{ m.top }};background:#fff;border:1px solid rgba(12,31,25,.08);border-radius:16px;box-shadow:0 16px 36px rgba(12,31,25,.1)">
-<button sc-camel-on-click="{{ m.toggle }}" style="all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:flex;align-items:center;gap:20px;padding:22px 24px"><span style="flex:none;width:56px;font:44px/1 'Marcellus',serif;color:#1f6b52">{{ m.n }}</span><span style="flex:1;display:flex;flex-direction:column;gap:2px"><span style="font-weight:700;font-size:20px;line-height:1.3">{{ m.t }}</span><span style="font-size:14px;color:#6b7570">{{ m.count }}</span></span><span style="flex:none;width:32px;height:32px;border-radius:50%;border:1px solid rgba(12,31,25,.2);display:flex;align-items:center;justify-content:center;font-size:16px">{{ m.sign }}</span></button>
-<sc-if value="{{ m.open }}" hint-placeholder-val="{{ false }}"><ol style="margin:0;padding:0 24px 22px 100px;display:flex;flex-direction:column;gap:10px;font-size:16px;line-height:1.5;color:#4a5550"><sc-for list="{{ m.lessons }}" as="l" hint-placeholder-count="4"><li style="padding-left:4px">{{ l }}</li></sc-for></ol></sc-if>
-</div>
-</sc-for>
-</div>
-</div>
-</section>
-<section data-screen-label="07 Suporte" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:24px">
-<span data-reveal="fade" style="font-size:13px;letter-spacing:.32em;color:#d4b273">SUPORTE</span>
-<h2 data-reveal="up" style="margin:-12px 0 0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Travou num caso? <span style="font-family:'Marcellus',serif;font-weight:400;color:#d4b273">Fale direto com a gente.</span></h2>
-<p data-reveal="up" data-delay="100" style="margin:0;color:#c3cec8">O suporte é pelo WhatsApp, com a Bruna e o Felipe. <span data-reveal="mark" data-delay="500" style="background:linear-gradient(transparent 12%,#f6dd9a 12%,#f6dd9a 90%,transparent 90%) no-repeat 0 0/100% 100%;padding:0 3px;color:#0c1f19">Envie fotos dos seus casos</span> e receba acompanhamento e direcionamento.</p>
-<div data-stagger="pop" data-gap="600" data-delay="300" style="width:100%;max-width:440px;align-self:center;background:#fbf9f5;color:#0c1f19;border-radius:28px;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px;box-shadow:0 40px 80px rgba(0,0,0,.4)">
-<div style="display:flex;align-items:center;gap:12px;padding:2px 2px 12px;border-bottom:1px solid rgba(12,31,25,.1)"><div style="width:40px;height:40px;border-radius:50%;background:url(&quot;assets/bruna-oval.webp&quot;) 50% 14%/260% no-repeat"></div><div style="display:flex;flex-direction:column;line-height:1.3"><span style="font-weight:700;font-size:15px">Suporte FLIP</span><span style="font-size:12px;color:#4a5550">Bruna, Felipe</span></div></div>
-<div style="align-self:flex-end;max-width:80%;padding:6px;background:#0c1f19;color:#f5f1ea;border-radius:16px 16px 4px 16px;display:flex;flex-direction:column;gap:6px"><img src="assets/a-depois.webp" alt="foto do caso" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px;display:block"><span style="padding:0 8px 4px;font-size:15px;line-height:1.45">Bruna, a peça chegou assim. Aceito ou peço ajuste?</span></div>
-<div style="align-self:flex-start;max-width:84%;padding:10px 14px;background:#ebe5da;border-radius:16px 16px 16px 4px;font-size:15px;line-height:1.45"><span style="display:block;font-size:12px;font-weight:700">Bruna</span>Não está feio, mas ainda está um pouco grosseiro. Os centrais estão mais largos, não tem textura, não tem translucidez... Devolve pro laboratório solicitando esses ajustes!</div>
-</div>
-</div>
-</section>
-<section data-screen-label="08 Bônus" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#fbf9f5;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:22px">
-<span data-reveal="fade" style="font-size:13px;font-weight:700;letter-spacing:.32em;color:#9a7536">BÔNUS</span>
-<h2 data-reveal="up" style="margin:-10px 0 0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Plástica Gengival do Básico ao Avançado</h2>
-<p data-reveal="up" data-delay="100" style="margin:-8px 0 0;font:clamp(22px,2.4cqw,28px)/1.3 'Marcellus',serif;color:#9a7536">com a Dra. Juliana Pereira e o Dr. Felipe Veiga</p>
-<div data-reveal="up" data-delay="150" data-dur="1600" style="width:100%;max-width:640px;align-self:center;margin-top:12px;display:flex;flex-direction:column;align-items:center">
-<div style="width:86%;padding:2.2% 2.2% 2.6%;box-sizing:border-box;background:#16191a;border-radius:18px 18px 0 0;box-shadow:0 30px 60px rgba(12,31,25,.22)"><div style="aspect-ratio:16/10;border-radius:4px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center"><div data-reveal="zoom" data-delay="400" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center"><div style="width:88%;text-align:center"><div style="font:700 clamp(26px,4cqw,46px)/1.02 'Marcellus',serif;color:#7d0b28;letter-spacing:.02em">PLÁSTICA</div><div style="font:700 clamp(26px,4cqw,46px)/1.02 'Marcellus',serif;color:#e0606d;letter-spacing:.02em">GENGIVAL</div><div style="margin-top:8px;font:500 clamp(11px,1.4cqw,15px)/1.2 'Karla',sans-serif;color:#7d0b28;letter-spacing:.22em">DO BÁSICO AO AVANÇADO</div></div></div></div></div>
-<div style="width:100%;height:14px;background:linear-gradient(#d4d6d8,#a9adb1);border-radius:0 0 14px 14px;position:relative"><div style="position:absolute;left:50%;top:0;width:14%;height:6px;margin-left:-7%;background:#9a9ea2;border-radius:0 0 8px 8px"></div></div>
-</div>
-<div data-reveal="up" style="display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:8px;text-align:center"><span style="color:#4a5550">De <span style="position:relative;display:inline-block">R$ 1.497<span data-reveal="strike" data-delay="600" style="position:absolute;left:-2px;right:-2px;top:52%;height:1.5px;background:#4a5550;transform-origin:left"></span></span> por</span><span style="font:700 clamp(48px,5.4cqw,64px)/1.05 'Fira Sans',sans-serif;color:#1a7a5a">R$ 0</span><span style="font-size:15px;color:#4a5550">para quem entrar na formação</span></div>
-</div>
-</section>
-<section data-screen-label="09 Custo" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#efeae1;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:22px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Daqui a um ano, onde você quer estar?</h2>
-<p data-reveal="up" data-delay="100" style="margin:-8px 0 0;font:clamp(22px,2.4cqw,28px)/1.3 'Marcellus',serif;color:#9a7536">Se nada mudar, os próximos 12 meses vão ser parecidos com os últimos.</p>
-<div data-reveal="left" style="padding:24px;background:#fff;border-radius:16px;display:flex;flex-direction:column;gap:12px;color:#4a5550"><span style="font-weight:700;color:#0c1f19;font-size:14px;letter-spacing:.2em">SEM A FLIP</span><span>× Pacientes de lentes indo para outro consultório</span><span>× Peças que chegam do laboratório e você aceita sem saber avaliar</span><span>× Retrabalho que come seu tempo</span><span>× Preço definido pela concorrência</span></div>
-<div data-reveal="right" data-delay="400" style="padding:24px;background:#0c1f19;color:#f5f1ea;border-radius:16px;display:flex;flex-direction:column;gap:12px"><span style="font-weight:700;color:#d4b273;font-size:14px;letter-spacing:.2em">COM A FLIP</span><span>✓ Lentes no seu portfólio, com casos para mostrar</span><span>✓ Você orienta o laboratório e sabe o que pedir de ajuste</span><span>✓ Previsibilidade do planejamento à cimentação</span><span>✓ Resultado que sustenta um valor maior</span></div>
-<div data-reveal="left" style="padding-left:22px;border-left:4px solid #b8914f;font:clamp(24px,2.6cqw,30px)/1.3 'Marcellus',serif">A cada mês sem dominar a porcelana, alguém faz esses casos no seu lugar.</div>
-<div data-reveal="up" style="width:100%;display:flex;flex-direction:column;gap:10px;margin-top:8px">
-<a href="https://pay.kiwify.com.br/tjyBUo1" style="position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:64px;padding:0 16px;border-radius:8px;background:linear-gradient(90deg,#0f6b4f,#1a9068);color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.16em;text-align:center">QUERO PARAR DE PERDER CASOS<span data-shine="" style="position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);pointer-events:none"></span></a>
-
-</div>
-</div>
-</section>
-<section id="oferta-v4" data-screen-label="10 Oferta" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#0c1f19">
-<div style="max-width:620px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:28px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif;text-align:center">Garanta sua vaga</h2>
-<div data-reveal="up" data-delay="100" style="width:100%;border-radius:10px;overflow:hidden;background:#fff;color:#0c1f19;box-shadow:0 40px 80px rgba(0,0,0,.4)">
-<div style="padding:18px;background:#132a22;color:#f5f1ea;text-align:center;font-size:14px;font-weight:700;letter-spacing:.24em">R$ 1.000 DE DESCONTO</div>
-<div style="padding:clamp(24px,4cqw,40px);display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center">
-<div style="display:flex;flex-direction:column;align-items:center;gap:2px"><span style="font-size:12px;letter-spacing:.4em;padding-left:.4em;color:#6b7570">FORMAÇÃO</span><span style="font:clamp(26px,3cqw,32px)/1.2 'Marcellus',serif">Lentes Impecáveis em Porcelana</span></div>
-<div data-stagger="fade" data-gap="120" style="width:100%;display:flex;flex-direction:column;text-align:left;font-size:16px;font-weight:500">
-<span style="padding:11px 0;border-top:1px solid rgba(12,31,25,.1)">✓ 9 módulos, +50 aulas e certificado</span>
-<span style="padding:11px 0;border-top:1px solid rgba(12,31,25,.1)">✓ Suporte no WhatsApp com Bruna e Felipe</span>
-<span style="padding:11px 0;border-top:1px solid rgba(12,31,25,.1)">✓ 1 ano de acesso</span>
-<span style="padding:11px 0;border-top:1px solid rgba(12,31,25,.1);border-bottom:1px solid rgba(12,31,25,.1)">✓ Bônus: Plástica Gengival do Básico ao Avançado <s style="color:#6b7570">R$ 1.497</s></span>
-</div>
-<div style="display:flex;flex-direction:column;align-items:center;line-height:1.3"><span style="color:#6b7570">De: <span style="position:relative;display:inline-block">R$ 3.997<span data-reveal="strike" data-delay="600" style="position:absolute;left:-2px;right:-2px;top:52%;height:1.5px;background:#6b7570;transform-origin:left"></span></span></span><span style="color:#4a5550">Por apenas:</span><span style="font:700 clamp(44px,5cqw,56px)/1.1 'Fira Sans',sans-serif;color:#1a7a5a">{{ priceBig }}</span><span style="color:#4a5550">{{ priceSub }}</span></div>
-<a href="https://pay.kiwify.com.br/tjyBUo1" data-pulse="26,144,104" style="position:relative;overflow:hidden;align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:64px;border-radius:8px;background:linear-gradient(90deg,#0f6b4f,#1a9068);color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.16em">QUERO MINHA VAGA<span data-shine="" style="position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);pointer-events:none"></span></a>
-<span style="font-size:14px;color:#6b7570">Pix ou cartão em até 12x · Pix + cartão · até 2 cartões</span>
-</div>
-</div>
-<div data-reveal="up" style="display:flex;gap:18px;align-items:center"><div style="flex:none;width:76px;height:76px;border-radius:50%;border:1px solid #d4b273;display:flex;flex-direction:column;align-items:center;justify-content:center;font:28px/1 'Marcellus',serif;color:#d4b273">7<span style="font:700 9px 'Karla',sans-serif;letter-spacing:.2em;margin-top:2px">DIAS</span></div><p style="margin:0;font-size:16px;color:#c3cec8"><strong style="color:#f5f1ea">Garantia incondicional.</strong> Assista às primeiras aulas. Não gostou, devolvemos 100% do seu dinheiro.</p></div>
-</div>
-</section>
-<section data-screen-label="11 FAQ" style="padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px);background:#fbf9f5;color:#0c1f19">
-<div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Perguntas frequentes</h2>
-<div style="display:flex;flex-direction:column;border-bottom:1px solid rgba(12,31,25,.14)">
-<sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
-<div style="border-top:1px solid rgba(12,31,25,.14)">
-<button sc-camel-on-click="{{ f.toggle }}" style="all:unset;box-sizing:border-box;width:100%;min-height:68px;padding:18px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;cursor:pointer;font:600 19px/1.35 'Fira Sans',sans-serif">{{ f.q }}<span style="flex:none;width:34px;height:34px;border-radius:50%;background:#0c1f19;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px">{{ f.sign }}</span></button>
-<sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}"><p style="margin:0 0 20px;color:#4a5550">{{ f.a }}</p></sc-if>
-</div>
-</sc-for>
-</div>
-</div>
-</section>
-<section data-screen-label="12 CTA final" style="padding:clamp(64px,8cqw,112px) 0;background:#0c1f19;display:flex;flex-direction:column;gap:32px">
-<div style="overflow:hidden"><div data-marquee="60" style="display:flex;gap:10px;width:max-content">
-<sc-for list="{{ gallery }}" as="g" hint-placeholder-count="8"><div style="flex:none;width:clamp(200px,24cqw,300px);aspect-ratio:1/1;border-radius:6px;overflow:hidden"><img src="{{ g }}" alt="antes e depois" style="width:100%;height:100%;object-fit:cover;display:block"></div></sc-for>
-</div></div>
-<div style="max-width:820px;margin:0 auto;padding:0 clamp(24px,6cqw,96px);display:flex;flex-direction:column;gap:20px">
-<h2 data-reveal="up" style="margin:0;font:700 clamp(32px,4.4cqw,52px)/1.12 'Fira Sans',sans-serif">Seu próximo caso pode sair <span style="font-family:'Marcellus',serif;font-weight:400;color:#d4b273">do jeito que você planejou.</span></h2>
-<p data-reveal="up" data-delay="100" style="margin:0;color:#c3cec8">Do briefing à cimentação, com o método da Nive e suporte direto de quem faz a clínica e o laboratório.</p>
-<div data-reveal="up" data-delay="200" style="display:flex;flex-direction:column;gap:10px">
-<a href="https://pay.kiwify.com.br/tjyBUo1" style="position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:64px;padding:0 16px;border-radius:8px;background:linear-gradient(90deg,#0f6b4f,#1a9068);color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.16em;text-align:center">QUERO ENTRAR PARA A FORMAÇÃO<span data-shine="" style="position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-120%);pointer-events:none"></span></a>
-<span style="text-align:center;font-size:15px;color:#c3cec8"><strong style="color:#f5f1ea">R$ 1.000 de desconto</strong> — de <s>R$ 3.997</s> por 12x R$ 309,96</span>
-</div>
-</div>
-</section>
-<footer style="padding:24px clamp(24px,6cqw,96px) 28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:13px;color:#8fa098;border-top:1px solid rgba(245,241,234,.1)"><span>FLIP · Formação Lentes Impecáveis em Porcelana</span><span>Nive Odontologia</span></footer>
-<div style="position:sticky;bottom:0;z-index:30;height:0;pointer-events:none"><a href="https://wa.me/554491594743?text=Ol%C3%A1!%20Tenho%20interesse%20na%20Forma%C3%A7%C3%A3o%20Lentes%20Impec%C3%A1veis%20em%20Porcelana%20e%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" style="pointer-events:auto;position:absolute;right:16px;bottom:16px;width:60px;height:60px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,.3)"><svg sc-camel-view-box="0 0 24 24" width="30" height="30" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></a></div>
-
-</div>
 </x-dc>
-<script type="text/x-dc" data-dc-script="" data-props="{&quot;priceMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;parcelado&quot;,&quot;à vista&quot;],&quot;default&quot;:&quot;parcelado&quot;,&quot;tsType&quot;:&quot;'parcelado'|'à vista'&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
-const CASES=['b','c','g','d','e','f','h'].map(k=>({before:`img/${k}-antes.webp`,after:`img/${k}-depois.webp`}));
-const G=['assets/a-depois.webp','assets/h-depois.webp','assets/b-depois.webp','assets/e-depois.webp','assets/c-depois.webp','assets/d-depois.webp','assets/g-depois.webp','assets/f-depois.webp'];
-const MODS=['Briefing','Estética','Materiais','Preparo','Prova e ajustes','Cimentação','Arcada inferior','Casos complexos','Reabilitação'];
-const FAQ=[
-{q:'Nunca fiz uma lente. Consigo acompanhar?',a:'Sim. A formação começa pelo briefing e pela seleção de casos, antes de qualquer preparo, e segue a ordem em que o tratamento acontece na clínica.'},
-{q:'Já faço porcelana. O que vou aprender de novo?',a:'Como orientar o laboratório, avaliar a peça na prova, ajustar com segurança e conduzir arcada inferior, casos complexos e reabilitações.'},
-{q:'Como funciona o suporte?',a:'Pelo WhatsApp, direto com a Bruna e o Felipe. Você envia fotos dos seus casos e recebe acompanhamento e direcionamento.'},
-{q:'Como funciona o pagamento?',a:'Pix ou cartão em até 12x. Também dá para combinar Pix e cartão, ou dividir em até 2 cartões.'},
-{q:'Por quanto tempo tenho acesso?',a:'1 ano de acesso a todas as aulas, com certificado de conclusão.'}];
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#0E3A38&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#0E3A38&quot;,&quot;#0D4C5A&quot;,&quot;#A9803F&quot;]},&quot;stickyCta&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
 class Component extends DCLogic {
-  state={pos:50,open:-1,ci:0,mod:-1};
-  componentDidUpdate(){}
-  aulasReady=()=>this.forceUpdate();
-  root=React.createRef(); drag=false;
-  componentDidMount(){ const r=this.root.current; if(r){ const f=()=>{const n=r.clientWidth<1100; if(n!==this.state.narrow) this.setState({narrow:n});}; this.ro=new ResizeObserver(f); this.ro.observe(r); f(); } if(this.props.motion===false) return; const go=()=>{ if(window.FlipMotion&&this.root.current) this.stop=window.FlipMotion.attach(this.root.current,{onBA:()=>this.sweep()}); else this.t=setTimeout(go,50); }; this.t=setTimeout(go,30); }
-  componentWillUnmount(){ this.ro&&this.ro.disconnect(); clearTimeout(this.t); this.stop&&this.stop(); }
-  setP(p){ this.setState({pos:Math.max(0,Math.min(100,p))}); }
-  sweep(){ const t0=performance.now(); const f=t=>{ if(this.drag) return; const k=Math.min(1,(t-t0)/2400); this.setP(50+32*Math.sin(k*Math.PI*2)*(1-k)); if(k<1) requestAnimationFrame(f); }; requestAnimationFrame(f); }
-  fromEv(e){ const r=e.currentTarget.parentElement.getBoundingClientRect(); this.setP((e.clientX-r.left)/r.width*100); }
-  renderVals(){
-    const mode=this.props.priceMode??'parcelado';
-    const {pos,ci}=this.state, N=CASES.length;
-    const go=i=>{this.setState({ci:i});this.sweep();};
-    const narrow=!!this.state.narrow;
-    return {root:this.root,narrow,wide:!narrow,cur:CASES[ci],caseNum:String(ci+1),caseTotal:String(N),pos:pos+'%',clip:`inset(0 ${100-pos}% 0 0)`,
-      down:e=>{this.drag=true;e.currentTarget.setPointerCapture(e.pointerId);this.fromEv(e);},
-      move:e=>{if(this.drag)this.fromEv(e);},up:()=>{this.drag=false;},
-      dots:CASES.map((_,i)=>({label:'Caso '+(i+1),bg:i===ci?'#d4b273':'rgba(245,241,234,.3)',go:()=>go(i)})),
-      modules:MODS.map((t,i)=>{const ls=(window.FLIP_AULAS||[])[i]||[];const o=this.state.mod===i;return {t,n:String(i+1).padStart(2,'0'),top:(20+i*10)+'px',pos:o?'relative':'sticky',open:o,sign:o?'−':'+',count:ls.length+' aulas',lessons:ls,toggle:()=>this.setState(s=>({mod:s.mod===i?-1:i}))};}),
-      faqs:FAQ.map((f,i)=>({...f,open:this.state.open===i,sign:this.state.open===i?'−':'+',toggle:()=>this.setState(s=>({open:s.open===i?-1:i}))})),
-      gallery:[...G,...G],
-      priceBig:mode==='parcelado'?'12x R$ 309,96':'R$ 2.997',priceSub:mode==='parcelado'?'ou R$ 2.997 à vista':'ou 12x de R$ 309,96'};
+  state = { split: 50, caso: 0, pag: 'pix', faq: 7, drag: false, heroVisible: true, loopStep: 0 };
+
+  // [chave, foco vertical em % — enquadra o sorriso no centro do recorte]
+  casosData = [['a', 62], ['b', 58], ['c', 60], ['d', 58], ['e', 62], ['f', 60], ['g', 58], ['h', 60]];
+
+  faqData = [
+    [
+      "Quando será o Workshop?",
+      [
+        "O Workshop Lentes de Porcelana acontece no sábado, 3 de outubro, das 8h às 12h."
+      ]
+    ],
+    [
+      "O Workshop é online?",
+      [
+        "Sim. O evento é totalmente online e ao vivo."
+      ]
+    ],
+    [
+      "Preciso já trabalhar com lentes de porcelana?",
+      [
+        "Não.",
+        "O Workshop foi desenvolvido justamente para quem ainda realiza poucos casos ou deseja começar a trabalhar com porcelana de forma mais estratégica."
+      ]
+    ],
+    [
+      "É indicado para recém-formados?",
+      [
+        "Sim, desde que o participante já atue clinicamente ou esteja iniciando sua atuação e tenha interesse em odontologia estética."
+      ]
+    ],
+    [
+      "Sou especialista em prótese. O Workshop é para mim?",
+      [
+        "Se você já executa casos de porcelana em alto nível, provavelmente não.",
+        "O conteúdo é voltado para quem está construindo seus primeiros casos."
+      ]
+    ],
+    [
+      "Vou aprender a executar lentes de porcelana em quatro horas?",
+      [
+        "Não.",
+        "Em quatro horas, ninguém se torna especialista em porcelana.",
+        "O objetivo do Workshop é mostrar o caminho: como encontrar oportunidades, selecionar casos, planejar pensando no resultado estético e construir portfólio — além de deixar claro tudo o que você precisa dominar para avançar."
+      ]
+    ],
+    [
+      "Vai ter análise de casos?",
+      [
+        "Sim. A análise de casos reais é uma das partes centrais do Workshop."
+      ]
+    ],
+    [
+      "A gravação está inclusa?",
+      [
+        "Não. O ingresso garante a participação ao vivo.",
+        "Caso queira rever o conteúdo, o acesso à gravação pode ser adicionado separadamente durante a inscrição."
+      ]
+    ],
+    [
+      "Como vou receber o acesso?",
+      [
+        "Após a inscrição, você receberá as instruções de acesso por e-mail e WhatsApp."
+      ]
+    ]
+  ];
+
+  componentDidMount() {
+    this._move = (e) => {
+      if (!this.state.drag || !this.el) return;
+      const r = this.el.getBoundingClientRect();
+      const x = (e.touches ? e.touches[0].clientX : e.clientX) - r.left;
+      this.setState({ split: Math.max(2, Math.min(98, (x / r.width) * 100)) });
+    };
+    this._up = () => this.state.drag && this.setState({ drag: false });
+    this._onScroll = () => { this.checkHero(); this.checkLoop(); this.checkCtas(); };
+    window.addEventListener('scroll', this._onScroll, { passive: true, capture: true });
+    document.addEventListener('scroll', this._onScroll, { passive: true, capture: true });
+    window.addEventListener('resize', this._onScroll);
+    // rede de segurança p/ browsers que estrangulam eventos de scroll no fling (mobile);
+    // 1s em vez dos 300ms originais — mantém o estado correto sem repaint frequente
+    this._poll = setInterval(this._onScroll, 1000);
+    setTimeout(this._onScroll, 0);
+    window.addEventListener('mousemove', this._move);
+    window.addEventListener('touchmove', this._move);
+    window.addEventListener('mouseup', this._up);
+    window.addEventListener('touchend', this._up);
+  }
+  componentDidUpdate() { this.syncCase(); this.checkCtas(); }
+  componentWillUnmount() {
+    window.removeEventListener('mousemove', this._move);
+    window.removeEventListener('touchmove', this._move);
+    window.removeEventListener('mouseup', this._up);
+    window.removeEventListener('touchend', this._up);
+    window.removeEventListener('scroll', this._onScroll, { capture: true });
+    document.removeEventListener('scroll', this._onScroll, { capture: true });
+    window.removeEventListener('resize', this._onScroll);
+    clearInterval(this._poll);
+  }
+
+  // só o CTA que está na tela pulsa — os demais ficam pausados (sem repaint contínuo)
+  checkCtas() {
+    if (!this._ctas || !this._ctas.length) this._ctas = document.querySelectorAll('.cta-pulse');
+    const h = window.innerHeight, pad = h * 0.1;
+    this._ctas.forEach((el) => {
+      const r = el.getBoundingClientRect();
+      el.classList.toggle('cta-on', r.height > 0 && r.top < h - pad && r.bottom > pad);
+    });
+  }
+
+  checkLoop() {
+    if (!this._loop) return;
+    const r = this._loop.getBoundingClientRect();
+    if (r.height === 0) return;
+    const span = r.height - window.innerHeight;
+    const p = span > 0 ? Math.min(1, Math.max(0, -r.top / span)) : 0;
+    const step = Math.min(4, Math.floor(p * 4.4));
+    if (step !== this.state.loopStep) this.setState({ loopStep: step });
+  }
+
+  checkHero() {
+    if (!this._hero) return;
+    const r = this._hero.getBoundingClientRect();
+    if (r.height === 0) return;
+    const visible = r.bottom > 90;
+    if (visible !== this.state.heroVisible) this.setState({ heroVisible: visible });
+  }
+
+  syncCase() {
+    const k = this.casosData[this.state.caso][0];
+    if (this._antes) this._antes.src = 'assets/' + k + '-antes.webp';
+    if (this._depois) this._depois.src = 'assets/' + k + '-depois.webp';
+  }
+
+  renderVals() {
+    const accent = this.props.accent ?? '#0E3A38';
+    const [k, foco] = this.casosData[this.state.caso];
+    return {
+      showSticky: (this.props.stickyCta ?? true) && !this.state.heroVisible,
+      heroRef: (n) => { if (n) this._hero = n; },
+      loopRef: (n) => { if (n) this._loop = n; },
+      a1: this.state.loopStep >= 1 ? 1 : 0,
+      a2: this.state.loopStep >= 2 ? 1 : 0,
+      a3: this.state.loopStep >= 3 ? 1 : 0,
+      a4: this.state.loopStep >= 4 ? 1 : 0,
+      n1: 1,
+      n1b: 0,
+      n2: this.state.loopStep >= 1 ? 1 : 0,
+      n2b: this.state.loopStep >= 1 ? 0 : 6,
+      n3: this.state.loopStep >= 2 ? 1 : 0,
+      n3b: this.state.loopStep >= 2 ? 0 : 6,
+      n4: this.state.loopStep >= 3 ? 1 : 0,
+      n4b: this.state.loopStep >= 3 ? 0 : 6,
+      splitPct: this.state.split,
+      clipRight: 100 - this.state.split,
+      focoY: foco,
+      casoAtual: this.state.caso + 1,
+      sliderRef: (n) => { this.el = n; },
+      antesRef: (n) => { this._antes = n; if (n) n.src = 'assets/' + k + '-antes.webp'; },
+      depoisRef: (n) => { this._depois = n; if (n) n.src = 'assets/' + k + '-depois.webp'; },
+      onDragStart: (e) => { this.setState({ drag: true }); this._move(e.nativeEvent || e); },
+      casos: this.casosData.map((_, i) => ({
+        dot: i === this.state.caso ? '#D3AE7C' : 'rgba(241,246,247,.35)',
+        select: () => this.setState({ caso: i, split: 50 })
+      })),
+      pagamentos: ['pix', 'cartão', 'boleto'].map(key => ({
+        label: key,
+        border: key === this.state.pag ? accent : '#DCE3E2',
+        bg: key === this.state.pag ? accent : '#fff',
+        fg: key === this.state.pag ? '#F3F1EB' : '#5E6A68',
+        select: () => this.setState({ pag: key })
+      })),
+      faqs: this.faqData.map(([q, ps], i) => ({
+        q,
+        paras: ps.map((t) => ({ t })),
+        open: this.state.faq === i,
+        sign: this.state.faq === i ? '−' : '+',
+        toggle: () => this.setState({ faq: this.state.faq === i ? -1 : i })
+      }))
+    };
   }
 }
+
 </script>
-
-
-</body></html>
+<script>
+// InitiateCheckout quando o visitante clica para ir ao checkout da Kiwify
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href*="pay.kiwify.com.br"]');
+  if (a && window.fbq) fbq('track', 'InitiateCheckout', { value: 37.00, currency: 'BRL', content_name: 'Workshop Lentes de Porcelana' });
+}, true);
+</script>
+</body>
+</html>
