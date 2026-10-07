@@ -133,6 +133,36 @@ section{padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px)}.light{background:v
   .portrait{max-height:470px}
 }
 
+
+/* Bio: clinic image must never reserve an invisible animated box */
+.portrait-wrap{margin-bottom:0!important}
+.clinic{
+  margin-top:0!important;
+  height:clamp(180px,24cqw,280px);
+  aspect-ratio:auto!important;
+  opacity:1!important;
+  visibility:visible!important;
+  clip-path:none!important;
+  transform:none!important;
+}
+.clinic img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 52%;
+  opacity:1!important;
+  visibility:visible!important;
+  clip-path:none!important;
+  transform:none!important;
+}
+.teachers .eyebrow{margin-top:4px!important}
+@media(max-width:1099px){
+  .clinic{height:clamp(150px,34cqw,240px)}
+}
+@media(max-width:560px){
+  .clinic{height:150px}
+}
+
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -184,7 +214,7 @@ src="https://www.facebook.com/tr?id=881400687280504&ev=PageView&noscript=1"
 <div class="aud-card dark-card" data-reveal="up" data-delay="150"><h3>Se você já faz</h3><p>Eleve o padrão: resultados mais naturais, menos retrabalho e domínio dos casos complexos, <strong style="color:#f5f1ea">que são os de maior valor</strong>.</p></div></div></section>
 
 <section class="dark"><div class="teachers"><div class="portrait-wrap"><div class="portrait" data-reveal="up" data-dur="1600"><img src="assets/bruna-felipe.webp" alt="Felipe e Bruna Veiga"></div></div>
-<div class="clinic" data-reveal="wipe"><div data-reveal="zoom" style="width:100%;height:100%"><img src="assets/nive-recepcao.webp" alt="Recepção da Nive Odontologia"></div></div>
+<div class="clinic"><img src="assets/nive-recepcao.webp" alt="Recepção da Nive Odontologia"></div>
 <span class="eyebrow" data-reveal="fade">QUEM CONDUZ A FORMAÇÃO</span><h2 data-reveal="up" style="margin-top:-12px">Felipe e Bruna Veiga</h2>
 <p data-reveal="up" data-delay="100" style="margin:-8px 0 0;font-weight:700;font-size:clamp(19px,2cqw,23px);line-height:1.5;color:var(--gold)">Fundadores da Nive Odontologia.</p>
 <p data-reveal="up" data-delay="200" style="margin:0;font-size:clamp(19px,2cqw,22px);color:#e3e9e5">À frente da Nive, Felipe e Bruna construíram um padrão de trabalho voltado para resultados naturais, previsíveis e de alto nível em porcelana.</p>
