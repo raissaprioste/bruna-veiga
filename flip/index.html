@@ -95,6 +95,23 @@ section{padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px)}.light{background:v
   .hero-mobile .chip{padding:6px 10px;font-size:10.5px}
 }
 
+
+/* Professores: reduz respiro excessivo entre imagens e heading */
+.teachers{gap:16px}
+.portrait{max-height:620px}
+.clinic{margin-top:-10px}
+.teachers .eyebrow{margin-top:2px}
+@media(max-width:1099px){
+  .teachers{gap:12px}
+  .portrait{max-height:560px}
+  .clinic{margin-top:-14px}
+  .teachers .eyebrow{margin-top:0}
+}
+@media(max-width:560px){
+  .portrait{max-height:500px}
+  .clinic{margin-top:-18px}
+}
+
 </style>
 <!-- Meta Pixel Code -->
 <script>
