@@ -112,6 +112,27 @@ section{padding:clamp(64px,8cqw,112px) clamp(24px,6cqw,96px)}.light{background:v
   .clinic{margin-top:-18px}
 }
 
+
+/* Bio: remove o espaço visual criado pela área transparente da máscara */
+.portrait-wrap{
+  margin-bottom:-96px;
+}
+.portrait{
+  max-height:590px;
+}
+.portrait img{
+  -webkit-mask-image:radial-gradient(ellipse 68% 80% at 50% 40%,#000 58%,transparent 100%);
+  mask-image:radial-gradient(ellipse 68% 80% at 50% 40%,#000 58%,transparent 100%);
+}
+@media(max-width:1099px){
+  .portrait-wrap{margin-bottom:-82px}
+  .portrait{max-height:530px}
+}
+@media(max-width:560px){
+  .portrait-wrap{margin-bottom:-68px}
+  .portrait{max-height:470px}
+}
+
 </style>
 <!-- Meta Pixel Code -->
 <script>
